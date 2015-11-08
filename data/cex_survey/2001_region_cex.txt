@@ -1,0 +1,160 @@
+Table 62. Region of residence: Shares of annual aggregate expenditures and sources of income, Consumer                                                                                                  
+Expenditure Survey, 2001                                                                                                                                                                                
+                                                                                                                                                                                                        
+  (Aggregates in millions of dollars, unless otherwise indicated)                                                                                                                                       
+                                                                                                                                                                                                        
+                                                                                                                                                                                                        
+                    Item                        Aggregate    Northeast     Midwest       South        West                                                                                              
+                                                                                                              
+                                                                                         
+Number of consumer units (in thousands)......     110,339       20,940       25,842       39,177       24,380                                                                                           
+Percent distribution of consumer units.......       100.0         19.0         23.4         35.5         22.1                                                                                           
+Income before taxes a/ ......................     $47,507      $50,568      $47,665      $44,218      $49,960                                                                                           
+Income after taxes a/ .......................      44,587       48,040       44,215       41,986       46,164                                                                                           
+Age of the reference person..................        48.1         49.5         48.7         48.0         46.6                                                                                           
+Average number in consumer unit:                                                                                                                                                                        
+ Persons.....................................         2.5          2.5          2.4          2.5          2.6                                                                                           
+ Children under 18...........................          .7           .6           .6           .7           .7                                                                                           
+ Persons 65 and over.........................          .3           .3           .3           .3           .3                                                                                           
+ Earners.....................................         1.4          1.3          1.4          1.3          1.4                                                                                           
+ Vehicles....................................         1.9          1.7          2.1          1.9          2.0                                                                                           
+Percent distribution:                                                                                                                                                                                   
+ Male........................................          51           52           53           49           53                                                                                           
+ Female......................................          49           48           47           51           47                                                                                           
+ Homeowner...................................          66           64           71           68           61                                                                                           
+  With mortgage..............................          40           37           43           39           42                                                                                           
+  Without mortgage...........................          26           27           28           29           19                                                                                           
+ Renter......................................          34           36           29           32           39                                                                                           
+ Black.......................................          12           10           10           19            5                                                                                           
+ White and other.............................          88           90           90           81           95                                                                                           
+ Elementary (1-8)............................           6            6            5            7            6                                                                                           
+ High school (9-12)..........................          38           41           41           41           30                                                                                           
+ College.....................................          56           53           55           53           63                                                                                           
+ Never attended and other....................          b/           b/           b/           b/            1                                                                                           
+ At least one vehicle owned or leased........          88           80           90           89           90                                                                                           
+Annual aggregate expenditures................  $4,359,314         19.8         23.4         32.6         24.2                                                                                           
+  Food.......................................     586,447         20.4         22.1         34.4         23.0                                                                                           
+    Food at home.............................     340,046         21.0         21.9         34.3         22.8                                                                                           
+      Cereals and bakery products............      49,834         21.6         22.4         33.9         22.2                                                                                           
+        Cereals and cereal products..........      17,243         21.9         22.1         33.2         22.9                                                                                           
+        Bakery products......................      32,591         21.4         22.6         34.2         21.8                                                                                           
+      Meats, poultry, fish, and eggs.........      91,247         21.7         20.3         36.3         21.8                                                                                           
+        Beef.................................      27,338         19.4         21.8         36.8         22.0                                                                                           
+        Pork.................................      19,541         19.5         20.9         39.6         20.0                                                                                           
+        Other meats..........................      11,248         23.8         21.6         34.3         20.3                                                                                           
+        Poultry..............................      16,737         23.7         19.1         35.5         21.7                                                                                           
+        Fish and seafood.....................      12,527         25.9         17.0         33.2         24.0                                                                                           
+        Eggs.................................       3,856         20.1         18.7         35.1         26.2                                                                                           
+      Dairy products.........................      36,554         21.6         23.0         32.2         23.2                                                                                           
+        Fresh milk and cream.................      14,971         19.7         23.2         32.7         24.4                                                                                           
+        Other dairy products.................      21,583         22.9         22.9         31.8         22.4                                                                                           
+      Fruits and vegetables..................      57,499         22.3         20.5         32.8         24.4                                                                                           
+        Fresh fruits.........................      17,678         22.8         21.3         31.0         24.9                                                                                           
+        Fresh vegetables.....................      17,812         21.7         19.4         32.8         26.2                                                                                           
+        Processed fruits.....................      12,788         22.8         20.4         33.0         23.8                                                                                           
+        Processed vegetables.................       9,222         21.5         21.4         36.1         21.0                                                                                           
+      Other food at home.....................    $104,913         19.4         23.3         34.4         22.9                                                                                           
+        Sugar and other sweets...............      12,779         19.4         23.0         34.1         23.6                                                                                           
+        Fats and oils........................       9,561         20.3         21.0         36.7         22.0                                                                                           
+        Miscellaneous foods..................      50,113         19.1         23.6         35.0         22.4                                                                                           
+        Nonalcoholic beverages...............      28,230         19.5         23.8         34.0         22.7                                                                                           
+        Food prepared by consumer unit on                                                                                                                                                               
+         out-of-town trips...................       4,229         19.3         22.7         26.5         31.6                                                                                           
+    Food away from home......................     246,401         19.6         22.5         34.5         23.4                                                                                           
+ Alcoholic beverages.........................      38,420         21.2         23.1         30.4         25.3                                                                                           
+ Housing.....................................   1,435,497         21.1         22.4         31.0         25.5                                                                                           
+    Shelter..................................     838,752         22.3         21.7         28.5         27.4                                                                                           
+      Owned dwellings........................     549,326         22.1         23.4         28.5         26.1                                                                                           
+        Mortgage interest and charges........     315,762         18.2         22.4         29.3         30.0                                                                                           
+        Property taxes.......................     136,070         31.8         24.5         24.5         19.2                                                                                           
+        Maintenance, repairs, insurance,other                                                                                                                                                           
+         expenses............................      97,494         20.9         25.0         31.3         22.9                                                                                           
+      Rented dwellings.......................     235,479         22.5         17.0         29.2         31.3                                                                                           
+      Other lodging..........................      53,947         24.0         25.6         25.6         24.8                                                                                           
+    Utilities, fuels, and public services....     305,260         19.5         23.9         36.5         20.2                                                                                           
+      Natural gas............................      45,308         23.0         33.4         23.5         20.0                                                                                           
+      Electricity............................     111,281         16.6         21.5         44.3         17.6                                                                                           
+      Fuel oil and other fuels...............      12,397         53.8         18.7         18.5          9.0                                                                                           
+      Telephone services.....................     100,895         18.6         23.4         35.9         22.1                                                                                           
+      Water and other public services........      35,379         14.0         22.6         36.7         26.8                                                                                           
+    Household operations.....................      74,577         21.9         21.3         32.5         24.3                                                                                           
+      Personal services......................      32,099         19.9         24.3         31.6         24.2                                                                                           
+      Other household expenses...............      42,478         23.4         19.0         33.2         24.4                                                                                           
+    Housekeeping supplies....................      56,097         19.4         22.5         34.5         23.6                                                                                           
+      Laundry and cleaning supplies..........      14,477         18.3         23.2         37.4         21.1                                                                                           
+      Other household products...............      28,120         20.0         20.7         34.8         24.4                                                                                           
+      Postage and stationery.................      13,499         19.4         25.5         30.6         24.5                                                                                           
+    Household furnishings and equipment......     160,811         17.8         23.6         32.1         26.5                                                                                           
+      Household textiles.....................      12,556         22.4         23.2         31.1         23.3                                                                                           
+      Furniture..............................      41,070         16.5         21.9         35.4         26.1                                                                                           
+      Floor coverings........................       4,468         21.0         17.9         26.2         35.0                                                                                           
+      Major appliances.......................      19,633         15.9         24.0         32.2         27.9                                                                                           
+      Small appliances, miscellaneous                                                                                                                                                                   
+       housewares............................       9,538         17.5         23.9         30.2         28.4                                                                                           
+      Miscellaneous household equipment......      73,545         18.1         24.8         31.0         26.1                                                                                           
+  Apparel and services.......................     192,138         22.7         22.7         32.6         22.0                                                                                           
+    Men and boys.............................      46,645         24.3         23.7         31.7         20.3                                                                                           
+      Men, 16 and over.......................      36,946         24.9         23.8         30.9         20.4                                                                                           
+      Boys, 2 to 15..........................       9,699         22.0         23.4         34.5         20.1                                                                                           
+    Women and girls..........................      74,615         22.6         24.2         32.9         20.2                                                                                           
+      Women, 16 and over.....................      61,965         22.8         24.0         32.9         20.3                                                                                           
+      Girls, 2 to 15.........................      12,649         21.6         25.2         33.1         20.0                                                                                           
+    Children under 2.........................       8,972         22.3         26.2         31.4         20.1                                                                                           
+    Footwear.................................      33,311         22.0         20.1         34.2         23.8                                                                                           
+    Other apparel products and services......      28,596         21.1         19.1         32.0         27.9                                                                                           
+  Transportation.............................     842,246         17.9         23.6         34.6         23.9                                                                                           
+    Vehicle purchases (net outlay)...........     394,894         16.6         22.9         37.8         22.7                                                                                           
+      Cars and trucks, new...................     185,940         19.4         20.5         37.6         22.5                                                                                           
+      Cars and trucks, used..................     203,916         14.3         25.0         38.0         22.7                                                                                           
+      Other vehicles.........................       5,037       c/ 6.9         25.2         40.5         27.4                                                                                           
+    Gasoline and motor oil...................     141,165         16.1         25.0         34.5         24.3                                                                                           
+    Other vehicle expenses...................    $262,082         19.2         24.3         31.5         25.0                                                                                           
+      Vehicle finance charges................      39,661         13.9         24.3         39.0         22.8                                                                                           
+      Maintenance and repairs................      73,077         19.0         22.1         30.3         28.5                                                                                           
+      Vehicle insurance......................      90,393         19.6         22.9         34.1         23.4                                                                                           
+      Vehicle rental, leases, licenses,                                                                                                                                                                 
+       other charges.........................      58,951         22.4         29.0         24.0         24.5                                                                                           
+    Public transportation....................      44,105         27.3         20.7         24.9         27.1                                                                                           
+  Health care................................     240,712         18.1         24.6         35.7         21.6                                                                                           
+    Health insurance.........................     117,031         18.7         24.9         36.4         20.1                                                                                           
+    Medical services.........................      63,180         18.2         23.3         32.8         25.6                                                                                           
+    Drugs....................................      49,502         16.5         25.1         39.3         19.1                                                                                           
+    Medical supplies.........................      10,999         18.8         27.2         28.9         25.1                                                                                           
+  Entertainment..............................     215,474         18.0         26.6         30.0         25.3                                                                                           
+    Fees and admissions......................      58,074         20.2         26.1         27.6         26.0                                                                                           
+    Television, radios, sound equipment......      72,769         19.6         24.2         33.0         23.2                                                                                           
+    Pets, toys, and playground equipment.....      37,201         18.3         25.5         32.0         24.1                                                                                           
+    Other entertainment supplies,                                                                                                                                                                       
+     equipment,and services..................      47,430         12.7         31.8         26.7         28.8                                                                                           
+  Personal care products and services........      53,450         18.8         23.2         34.2         23.7                                                                                           
+  Reading....................................      15,558         22.7         26.9         25.5         24.9                                                                                           
+  Education..................................      71,461         21.4         24.9         26.5         27.2                                                                                           
+  Tobacco products and smoking supplies......      34,027         18.7         28.4         36.4         16.4                                                                                           
+  Miscellaneous..............................      82,751         24.9         21.9         28.6         24.5                                                                                           
+  Cash contributions.........................     138,825         15.2         28.7         34.0         22.1                                                                                           
+  Personal insurance and pensions............     412,309         19.1         24.2         32.2         24.5                                                                                           
+    Life and other personal insurance........      45,286         18.7         27.1         36.2         18.0                                                                                           
+    Pensions and Social Security.............     367,023         19.2         23.8         31.7         25.3                                                                                           
+ Sources of income and personal taxes: a/                                                                                                                                                               
+   Money income before taxes.................   4,215,547         20.2         23.2         33.0         23.6                                                                                           
+    Wages and salaries.......................   3,401,575         20.9         23.2         32.8         23.2                                                                                           
+    Self-employment income...................     197,988         13.3         23.0         29.9         33.7                                                                                           
+    Social Security, private and                                                                                                                                                                        
+     government retirement...................     440,370         20.0         23.4         36.5         20.1                                                                                           
+    Interest, dividends, rental income,                                                                                                                                                                 
+     other property income...................      84,377         12.6         23.3         35.7         28.4                                                                                           
+    Unemployment and workers'' compensation,                                                                                                                                                            
+     veterans'' benefits.....................      15,217         19.4         20.9         25.8         34.0                                                                                           
+    Public assistance, supplemental security,                                                                                                                                                           
+     income, food stamps.....................      34,051         20.2         19.2         32.1         28.5                                                                                           
+    Regular contributions for support........      27,950         14.4         22.1         33.4         30.1                                                                                           
+    Other income.............................      14,018         16.8         22.9         27.9         32.4                                                                                           
+  Personal taxes.............................     259,142         16.4         27.3         27.1         29.2                                                                                           
+    Federal income taxes.....................     198,482         15.5         25.7         29.5         29.4                                                                                           
+    State and local income taxes.............      49,209         18.7         33.9         17.9         29.4                                                                                           
+    Other taxes..............................      11,451         22.1         26.8         26.1         25.0                                                                                           
+ Income after taxes..........................   3,956,405         20.4         22.9         33.4         23.3                                                                                           
+                                                                                                                                                                                                        
+  a Components of income and taxes are derived from "complete income reporters" only;  see glossary.                                                                                                    
+  b Value less than 0.5.                                                                                                                                                                                
+  c Data are likely to have large sampling errors.                                                                                                                                                      
