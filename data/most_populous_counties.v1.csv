@@ -1,0 +1,612 @@
+(lp0
+(S'Los Angeles County'
+p1
+S'CA'
+p2
+tp3
+a(S'Cook County'
+p4
+S'IL'
+p5
+tp6
+a(S'Harris County'
+p7
+S'TX'
+p8
+tp9
+a(S'Maricopa County'
+p10
+S'AZ'
+p11
+tp12
+a(S'San Diego County'
+p13
+g2
+tp14
+a(S'Orange County'
+p15
+g2
+tp16
+a(S'Miami-Dade County'
+p17
+S'FL'
+p18
+tp19
+a(S'Kings County'
+p20
+S'NY'
+p21
+tp22
+a(S'Dallas County'
+p23
+g8
+tp24
+a(S'Queens County'
+p25
+g21
+tp26
+a(S'Riverside County'
+p27
+g2
+tp28
+a(S'San Bernardino County'
+p29
+g2
+tp30
+a(S'King County'
+p31
+S'WA'
+p32
+tp33
+a(S'Clark County'
+p34
+S'NV'
+p35
+tp36
+a(S'Tarrant County'
+p37
+g8
+tp38
+a(S'Santa Clara County'
+p39
+g2
+tp40
+a(S'Broward County'
+p41
+g18
+tp42
+a(S'Wayne County'
+p43
+S'MI'
+p44
+tp45
+a(S'Bexar County'
+p46
+g8
+tp47
+a(S'New York County'
+p48
+g21
+tp49
+a(S'Alameda County'
+p50
+g2
+tp51
+a(S'Philadelphia County'
+p52
+S'PA'
+p53
+tp54
+a(S'Middlesex County'
+p55
+S'MA'
+p56
+tp57
+a(S'Suffolk County'
+p58
+g21
+tp59
+a(S'Sacramento County'
+p60
+g2
+tp61
+a(S'Bronx County'
+p62
+g21
+tp63
+a(S'Palm Beach County'
+p64
+g18
+tp65
+a(S'Nassau County'
+p66
+g21
+tp67
+a(S'Hillsborough County'
+p68
+g18
+tp69
+a(S'Cuyahoga County'
+p70
+S'OH'
+p71
+tp72
+a(S'Allegheny County'
+p73
+g53
+tp74
+a(S'Oakland County'
+p75
+g44
+tp76
+a(g15
+g18
+tp77
+a(S'Franklin County'
+p78
+g71
+tp79
+a(S'Hennepin County'
+p80
+S'MN'
+p81
+tp82
+a(S'Fairfax County'
+p83
+S'VA'
+p84
+tp85
+a(S'Travis County'
+p86
+g8
+tp87
+a(S'Contra Costa County'
+p88
+g2
+tp89
+a(S'Salt Lake County'
+p90
+S'UT'
+p91
+tp92
+a(S'Montgomery County'
+p93
+S'MD'
+p94
+tp95
+a(S'St. Louis County'
+p96
+S'MO'
+p97
+tp98
+a(S'Pima County'
+p99
+g11
+tp100
+a(S'Fulton County'
+p101
+S'GA'
+p102
+tp103
+a(S'Honolulu County'
+p104
+S'HI'
+p105
+tp106
+a(S'Mecklenburg County'
+p107
+S'NC'
+p108
+tp109
+a(S'Westchester County'
+p110
+g21
+tp111
+a(S'Milwaukee County'
+p112
+S'WI'
+p113
+tp114
+a(S'Wake County'
+p115
+g108
+tp116
+a(S'Fresno County'
+p117
+g2
+tp118
+a(S'Shelby County'
+p119
+S'TN'
+p120
+tp121
+a(S'Fairfield County'
+p122
+S'CT'
+p123
+tp124
+a(S'DuPage County'
+p125
+g5
+tp126
+a(S'Pinellas County'
+p127
+g18
+tp128
+a(S'Erie County'
+p129
+g21
+tp130
+a(S'Marion County'
+p131
+S'IN'
+p132
+tp133
+a(S'Bergen County'
+p134
+S'NJ'
+p135
+tp136
+a(S'Hartford County'
+p137
+g123
+tp138
+a(S"Prince George's County"
+p139
+g94
+tp140
+a(S'Duval County'
+p141
+g18
+tp142
+a(S'New Haven County'
+p143
+g123
+tp144
+a(S'Kern County'
+p145
+g2
+tp146
+a(S'Macomb County'
+p147
+g44
+tp148
+a(S'Gwinnett County'
+p149
+g102
+tp150
+a(S'Ventura County'
+p151
+g2
+tp152
+a(S'Collin County'
+p153
+g8
+tp154
+a(S'El Paso County'
+p155
+g8
+tp156
+a(S'San Francisco County'
+p157
+g2
+tp158
+a(g55
+g135
+tp159
+a(S'Baltimore County'
+p160
+g94
+tp161
+a(S'Pierce County'
+p162
+g32
+tp163
+a(g93
+g53
+tp164
+a(S'Hidalgo County'
+p165
+g8
+tp166
+a(S'Worcester County'
+p167
+g56
+tp168
+a(S'Hamilton County'
+p169
+g71
+tp170
+a(S'Essex County'
+p171
+g135
+tp172
+a(S'Multnomah County'
+p173
+S'OR'
+p174
+tp175
+a(g171
+g56
+tp176
+a(S'Jefferson County'
+p177
+S'KY'
+p178
+tp179
+a(S'Monroe County'
+p180
+g21
+tp181
+a(g58
+g56
+tp182
+a(S'Oklahoma County'
+p183
+S'OK'
+p184
+tp185
+a(S'San Mateo County'
+p186
+g2
+tp187
+a(S'Snohomish County'
+p188
+g32
+tp189
+a(S'Cobb County'
+p190
+g102
+tp191
+a(S'Denton County'
+p192
+g8
+tp193
+a(S'DeKalb County'
+p194
+g102
+tp195
+a(S'San Joaquin County'
+p196
+g2
+tp197
+a(S'Lake County'
+p198
+g5
+tp199
+a(S'Will County'
+p200
+g5
+tp201
+a(S'Norfolk County'
+p202
+g56
+tp203
+a(S'Jackson County'
+p204
+g97
+tp205
+a(S'Bernalillo County'
+p206
+S'NM'
+p207
+tp208
+a(g177
+S'AL'
+p209
+tp210
+a(S'Hudson County'
+p211
+g135
+tp212
+a(S'Davidson County'
+p213
+g120
+tp214
+a(S'Lee County'
+p215
+g18
+tp216
+a(g155
+S'CO'
+p217
+tp218
+a(S'Denver County'
+p219
+g217
+tp220
+a(S'District of Columbia'
+p221
+S'DC'
+p222
+tp223
+a(S'Monmouth County'
+p224
+g135
+tp225
+a(S'Providence County'
+p226
+S'RI'
+p227
+tp228
+a(S'Fort Bend County'
+p229
+g8
+tp230
+a(S'Bucks County'
+p231
+g53
+tp232
+a(S'Baltimore city'
+p233
+g94
+tp234
+a(S'Polk County'
+p235
+g18
+tp236
+a(S'Kent County'
+p237
+g44
+tp238
+a(S'Tulsa County'
+p239
+g184
+tp240
+a(S'Arapahoe County'
+p241
+g217
+tp242
+a(S'Ocean County'
+p243
+g135
+tp244
+a(S'Delaware County'
+p245
+g53
+tp246
+a(S'Johnson County'
+p247
+S'KS'
+p248
+tp249
+a(S'Bristol County'
+p250
+g56
+tp251
+a(S'Anne Arundel County'
+p252
+g94
+tp253
+a(S'Washington County'
+p254
+g174
+tp255
+a(S'Brevard County'
+p256
+g18
+tp257
+a(S'New Castle County'
+p258
+S'DE'
+p259
+tp260
+a(g177
+g217
+tp261
+a(S'Union County'
+p262
+g135
+tp263
+a(S'Summit County'
+p264
+g71
+tp265
+a(S'Utah County'
+p266
+g91
+tp267
+a(g93
+g71
+tp268
+a(S'Douglas County'
+p269
+S'NE'
+p270
+tp271
+a(S'Lancaster County'
+p272
+g53
+tp273
+a(S'Kane County'
+p274
+g5
+tp275
+a(S'Stanislaus County'
+p276
+g2
+tp277
+a(S'Ramsey County'
+p278
+g81
+tp279
+a(S'Camden County'
+p280
+g135
+tp281
+a(S'Chester County'
+p282
+g53
+tp283
+a(S'Sedgwick County'
+p284
+g248
+tp285
+a(S'Dane County'
+p286
+g113
+tp287
+a(S'Passaic County'
+p288
+g135
+tp289
+a(S'Guilford County'
+p290
+g108
+tp291
+a(S'Plymouth County'
+p292
+g56
+tp293
+a(S'Morris County'
+p294
+g135
+tp295
+a(S'Volusia County'
+p296
+g18
+tp297
+a(g198
+g132
+tp298
+a(S'Sonoma County'
+p299
+g2
+tp300
+a(g93
+g8
+tp301
+a(S'Spokane County'
+p302
+g32
+tp303
+a(S'Richmond County'
+p304
+g21
+tp305
+a(S'Pasco County'
+p306
+g18
+tp307
+a(S'Greenville County'
+p308
+S'SC'
+p309
+tp310
+a(S'Onondaga County'
+p311
+g21
+tp312
+a(S'Hampden County'
+p313
+g56
+tp314
+a(S'Adams County'
+p315
+g217
+tp316
+a(S'Williamson County'
+p317
+g8
+tp318
+a.
