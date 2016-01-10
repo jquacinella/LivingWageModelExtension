@@ -1,145 +1,25 @@
-\chapter{Measurement Instruments and Principles}\label{ch:AppA}
+\chapter{Code Listings}\label{ch:AppA}
 %************************************************
-\section{Mass Flow Controllers}
-\subsection{Air Flow Measurements}
-The air flow is measured by a Bronkhorst IN-FLOW Constant Temperature Anemometry (CTA)  mass flow meter. Two stainless steel probes protrude inside the flow channel;  a heater probe and a temperature sensor probe as depicted below
- \begin{figure}[h!]
-    \centering
-        \includegraphics[width=0.5\textwidth]{FlowMeter.png}
-        \caption{Flow Meter Principle}
-    \label{f:FlowMeter}
-\end{figure}
- A constant temperature $(\delta T)$ is created between the two probes and the energy required to maintain this $(\delta T)$ is proportional to the mass flow rate.  Based on this concept, mass flow can be measured with low pressure drop, mainly caused by the gas fittings and the mesh screens which are incorporated for flow conditioning.
- A wire, heated by an electrical current input, is in thermal equilibrium with its environment. The electrical power input is equal to the power lost to convective heat transfer :
-\begin{equation}
-I^2R_w = h\cdot A_w\left ( T_w - T_f \right )
-\label{Ch_5_01}
-\end{equation}
-where I is the input current, $R_w$ is the resistance of the wire, $T_w$ and $T_f$ are the temperatures of the wire and fluid respectively, $A_w$ is the projected wire surface area, and $h$ is the heat transfer coefficient of the wire. The heat transfer coefficient $h$ is a function of fluid velocity $v_f$ according to King's law\footnote{The operation of thermal dispersion mass flow meters is attributed to L.V. King who, shows how how a heated wire immersed in a fluid flow measures the mass velocity at a point in the flow. King called his instrument a hot-wire anemometer}
-\begin{equation}
-h = a + b\cdot \nu^c_f
-\label{Ch_5_02}
-\end{equation}
-where a, b, and c are coefficients obtained from calibration (c ~ 0.5)
-Combining the above three equations allows us to eliminate the heat transfer coefficient h
-\begin{equation}
-a + b\cdot \nu^c_f = \frac{I^2R_w}{h\cdot A_w\left ( T_w - T_f \right )}
-\label{Ch_5_03}
-\end{equation}
-For a hot-wire anemometer powered by an adjustable current to maintain a constant temperature, $T_w$ and $R_w$ are constants. The fluid velocity is a function of input current and flow temperature:
-\begin{equation}
-a + b\cdot \nu^c_f = f\left ( I,t_f \right )
-\label{Ch_5_04}
-\end{equation}
-The temperature of the flow $T_f$ can be measured. The fluid velocity is then reduced to a function of input current only. The transfer function between mass flow and current signal can be described by the equation
-\begin{equation}
-V_{signal} = K\cdot\Phi_m
-\label{Ch_5_04}
-\end{equation}
-%Where $V_{signal}$ = output signal, K = constant factor, includes \lambda – heat conductivity, $C_p – specific heat$, \mu – dynamic viscosity and \rho – density of the gas, \Phi_m = mass flow. Based on this concept, the mass flow is measured with low pressure drop, mainly caused by the gas fittings
-\subsection{Fuel Flow Measurements}
-The fuel flow was controlled and monitored by a Bronkhorst mini CORI-FLOW digital mass flow meter controller. Unlike the thermal mass flow meter which measures the velocity and volume and then corrects for temperature in order to determine the mass flow rate, this technique measures exactly the throughput of the fluid. The fluid flows through a vibrating tube as pictured below. The changes in frequency, phase shift or amplitude is proportional to the mass flow through the tube and the density is given as a secondary output.
- \begin{figure}[h!]
-    \centering
-        \includegraphics[width=0.5\textwidth]{Coriollis.PNG}
-        \caption{Schematic of a Coriolis Flow Sensor}
-    \label{f:FlowMeter}
-\end{figure}
-\section{Sample Probes}
-This section presents details of the probes used in collecting temperature and specie concentration data.
-\subsection{Specie Concentration Probe}
-A water-cooled sampling probe was designed using solidworks software. The design was centered around producing a minimal diameter as to not obstruct the combustion dynamics inside the chamber, while at the same time producing a build that is robust enough to withstand very high temperatures.
- \begin{figure}[h!]
-    \centering
-        \includegraphics[width=1\textwidth]{GasProbe1.PNG}
-        \caption{Water Cooled Probe}
-    \label{f:GasProbe1}
-\end{figure}
-Figure\ref{f:GasProbe1} shows a magnification of the cap of the gas probe. The probe itself consists of three concentric tubes. The innermost tube has a diameter of  $1.6mm$ and is connected directly to the HORIBA Gas analyzer unit. Around this tube there is a secondary tube of $2.7mm$ in diameter from which cooling water enters the probe. The cooling water then exists the probe from the outtermost tube which is $3.9mm$ in diameter. The material used for construction of the probe is stainless steel.
- \begin{figure}[h!]
-    \centering
-        \includegraphics[width=1\textwidth]{GasProbeWater.PNG}
-        \caption{Water Flow Direction}
-    \label{f:GasProbeWater}
-\end{figure}
-\begin{figure}[h!]
-    \centering
-        \includegraphics[width=1\textwidth]{GasProbeDim.PNG}
-        \caption{Dimensions of the Gas Sampler Probe}
-    \label{f:GasProbeDim}
-\end{figure}
-The dimensions of the probe are shown in figure\ref{f:GasProbeDim} below
-  \begin{figure}[h!]
-    \centering
-        \includegraphics[width=0.8\textwidth]{GasProbeCap.PNG}
-        \caption{Inlet Cap Detail}
-    \label{f:GasProbeCap}
-\end{figure}
-\subsection{Type B Thermocouple}
-A type B thermocouple, while lacking the sensitivity of Type K's, allows for temperature measurements in harsher environments. The schematic below shows the temperature sensor system.
-  \begin{figure}[h!]
-    \centering
-        \includegraphics[width=0.8\textwidth]{Thermocouple.PNG}
-        \caption{Temperature Measurement System}
-    \label{f:Thermocouple}
-\end{figure}
-\subsection{Humidity Sensor Probe}
-Capacitive sensors contain a glass substrate with a humidity-sensitive polymer layer between two metal electrodes. By absorption of water, corresponding to the relative humidity, the dielectric constant and, as a result, the capacity of the thin-film capacitor are changing. The measuring signal is directly proportional to the relative humidity and is not depending on the atmospheric pressure. The variables humidity and temperature are directly measured with the capacitive humidity sensors This allows to firstly calculate the partial vapour pressure and to determine the dew point and mixture ratio
-\begin{equation}
-VP = ]frac{RH}{100}* SVP(T)
-\label{VaporPressure}
-\end{equation}
-\begin{figure}[h!]
-    \centering
-        \includegraphics[width=0.8\textwidth]{HumiditySensor.PNG}
-        \caption{Humidity Sensor}
-    \label{f:HumiditySensor}
-\end{figure}
-The mixture ratio gives the amount of humidity present in g per kilogram of substrate.
-Technical Data:
-\begin{itemize}
-  \item Measuring range: 5 to 98 \%rH
-  \item Operating temperature: standard range $-20$ to $80 C$
-  \item Max. linearity deviation: $ \pm 2\% $rH (5 to 98\%rH) by nominal temperature
-  \item Max. hysteresis: 1 \%rH by nominal temperature
-  \item Operating pressure: atm. pressure
-\end{itemize}
-\section{Gas Analyzer Principles}
-\begin{figure}[h!]
-    \centering
-        \includegraphics[width=1\textwidth]{HoribaSchematic.PNG}
-        \caption{System Diagram HORIBA PG250}
-    \label{f:HoribaSchematic}
-\end{figure}
-The gas analyzer houses a Non-Dispersive Infra Red absorbtion detector for $CO$, $CO_2$ and $SO_2$ measurement, chemilluniescence for $NO_x$ measurements and Galvanic Cell for $O_2$ measurement. A schematic of the portable system is shown in figure\ref{f:HoribaSchematic}. The gas analyzer also incorporates a built-in sample conditioner consisting of a dual-stage moisture removal system that includes a gravity drain separator and thermal-electric cooler. Other sample conditioning components can include acid mist eliminators, filters, sample pump, condensate drain pump, and a sample flow monitor. Sampling is accomplished with a stainless steel unheated sample probe equipped with an external primary filter.
-Data may be output from the instrument via $4mA$ to $20mA$ analog signals or from the $RS232C$ serial communication port. An LCD screen provides real-time display of all five gas parameters being measured. Before sampling, the analyzer undergoes testing and calibration. The analyzer is supplied with zero and span gas and with standard $NO$ and $O_2$ mixtures. The sample is drawn through the smallest tube of the gas probe assembly and into the system by
-\subsection{NonDispersive IR Detection}
-Non dispersive infrared spectroscopy (ND-IR) is often used to detect gas and measure the concentration of carbon oxides (e.g. carbon monoxide, carbon dioxide).  An infra-red beam passes through the sampling chamber and each gas component in the sample absorbs some particular frequency infra red. In parallel a reference gas, typically nitrogen, is used in another chamber. By measuring the amount of absorbed infer red at the necessary frequency, the concentration of the gas component can be determined. It is called nondispersive because the wavelength which passes through the sampling chamber is not pre-filtered,  and instead the optical filter is in front of the detector to eliminate all light except the wavelength which the selected gas molecules can absorb.
-\begin{figure}[h!]
-    \centering
-        \includegraphics[width=0.6\textwidth]{COAnalyzer.PNG}
-        \caption{CO Analysis}
-    \label{f:COAnalyzer}
-\end{figure}
-Chemiluminescence (cross flow modulation):When nitrogen comes into contact with $O_3$ $NO_2$ is produced. A portion of the $NO_2$ molecules are in an excited state and these excited molecules generate chemiluminescence in the $600nm$ to $3000nm$ wavelength region as they return to the ground state. Based on the signal strength of this light which is detected by a semiconductor photo sensor, the concentration of the nitrogen oxides are measured. The concentration of $NO_2$ and other nitrogen oxides in the air is converted to NO using a pre-processing device ($NO_x$ converter) and then measured using the chemiluminescence method. NO is detected as it reacts through direct exposure to the ozone. After the gas has passed through the converter $NO_x$ can be detected as it in turn reacts. Finally $NO_2$ is measured by subtracting NO from $NO_x$.
-\begin{figure}[h!]
-    \centering
-        \includegraphics[width=0.6\textwidth]{NOAnalyzer.PNG}
-        \caption{NO Analysis}
-    \label{f:NOAnalyzer}
-\end{figure}
-\section{NI Software}
-Below are screenshots of the code that was developed for the data acquisition system. This code has been documented in previous sections. The graphic user interface is shown below
-\begin{figure}[h!]
-    \centering
-        \includegraphics[width=0.6\textwidth]{softwareGUI.PNG}
-        \caption{Software Graphic User Interface}
-    \label{f:softwareGUI}
-\end{figure}
-In lieu of listing the code as is done for other programming languages, the main processing segment of the code is shown below
-\begin{figure}[h!]
-    \centering
-        \includegraphics[width=1\textwidth]{blockDiag1.PNG}
-        \caption{Software code}
-    \label{f:blockDiag1}
-\end{figure} 
+
+\definecolor{keywords}{RGB}{255,0,90}
+\definecolor{comments}{RGB}{0,0,113}
+\definecolor{red}{RGB}{160,0,0}
+\definecolor{green}{RGB}{0,150,0}
+ 
+\lstset{language=Python, 
+        basicstyle=\ttfamily\small, 
+        keywordstyle=\color{keywords},
+        commentstyle=\color{comments},
+        stringstyle=\color{red},
+        showstringspaces=false,
+        identifierstyle=\color{green}}
+ 
+\begin{lstlisting}
+def hello(name):
+    print 'Hello', name
+ 
+if __name__=='__main__':
+    hello('Me')    
+\end{lstlisting}
+
+Thinking each code section could just link to the notebook using the anchor tag
