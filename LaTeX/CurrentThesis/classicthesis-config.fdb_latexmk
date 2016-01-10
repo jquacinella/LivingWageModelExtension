@@ -1,0 +1,13 @@
+# Fdb version 3
+["pdflatex"] 1452451244 "classicthesis-config.tex" "classicthesis-config.pdf" "classicthesis-config" 1452451244
+  "/etc/texmf/web2c/texmf.cnf" 1389631333 475 c0e671620eb5563b2130f56340a5fde8 ""
+  "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1272929888 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
+  "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmtt10.tfm" 1136768653 768 1321e9409b4137d6fb428ac9dc956269 ""
+  "/usr/share/texlive/texmf-dist/web2c/texmf.cnf" 1392645748 31083 1dfd8bf685ce0009c40532fedf8a7c53 ""
+  "/usr/share/texmf/web2c/texmf.cnf" 1392645748 31083 1dfd8bf685ce0009c40532fedf8a7c53 ""
+  "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1403328890 856211 cfafaae271d36c020fbb2c195acb0adc ""
+  "classicthesis-config.aux" 1452451244 8 a94a2480d3289e625eea47cd1b285758 ""
+  "classicthesis-config.tex" 1452451244 14018 3f9b0473e8298887802d6d82b6bb9b04 ""
+  (generated)
+  "classicthesis-config.pdf"
+  "classicthesis-config.log"
