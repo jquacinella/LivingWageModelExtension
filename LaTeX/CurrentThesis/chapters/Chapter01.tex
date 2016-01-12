@@ -2,23 +2,28 @@
 \chapter{Introduction}\label{ch:introduction}
 %************************************************
 
-\section{Background}
+\section{Introduction to the Living Wage and the Living Wage Model}
 
-\subsection{Definition of the Living Wage}
+The living wage is defined by the origin paper\cite{glasmeier2014} as:
 
-Quote definition of living wage from http://livingwage.mit.edu/resources/Living-User-Guide-and-Technical-Notes-2014.pdf
+\begin{quote}
+The living wage model is an alternative measure of basic needs. It is a market-based approach that draws upon geographically specific expenditure data related to a family's likely minimum food, child care, health insurance, housing, transportation, and other basic necessities (e.g. clothing, personal care items, etc.) costs. The living wage draws on these cost elements and the rough effects of income and payroll taxes to determine the minimum employment earnings necessary to meet a family's basic needs while also maintaining self-sufficiency.
+\end{quote}
 
-\subsection{Definition of the Living Wage Model}
+The original model proposed estimated the living wage in terms of 9 variables:
+\newline
+\newline
+$basic\_needs\_budget = food\_cost + child\_care\_cost + ( insurance\_premiums + health\_care\_costs ) + housing\_cost + transportation\_cost + other\_necessities\_cost$
+\newline
+\newline
+$living\_wage = basic\_needs\_budget + ( basic\_needs\_budget * tax\_rate )$
+\newline
+\newline
 
-Show model equation
+We can also define a notion of the living wage gap, which is the difference between a household's income and the living wage. This project will look at the difference between median wages earned and the living wage estimate at the county-level, and as well as the minimum wage.
 
-Show model variables in table, with name, purpose, granularity, data source
+The purpose of this project is to take this model and extend it's use to investigate trends in the living wage for the years 2004 - 2014. The project is structured as follows. The data sources that each of the model variables use are described in the Section 2, and the individual model variables are described in Section 3. Section 4 begins the analysis of the living wage distribution across the county. Section 5 looks at how we can compare median and minimum wage levels with the living wage to look at how well single households are doing with regards to meeting basic needs. Commentary will be made throughout the sections and summarized in the Results section, with extra commentary on where future work could go.
 
-\subsection{Definition of the Living Wage Gap}
-
-\subsection{Purpose of Project}
-
-Extend this model for 2004 - 2014, determine if there are any trends in distribution of the living wage, as well as any trends based on race.
 
 %\begin{figure}[hbt]
 %    \centering

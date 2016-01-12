@@ -10,75 +10,71 @@
 
 \chapter*{Abstract}
 
-Quote definition of living wage from http://livingwage.mit.edu/resources/Living-User-Guide-and-Technical-Notes-2014.pdf. Why is it useful definition
+Amy Glasmeier proposed a model for the living wage \cite{glasmeier2014}, which she defines as:
 
-Original model produced data for 2014. Purpose of this paper is to take this model and use it to investigate trends in the living wage for the years 2004 - 2014.
+\begin{quote}
+The living wage model is an alternative measure of basic needs. It is a market-based approach that draws upon geographically specific expenditure data related to a family's likely minimum food, child care, health insurance, housing, transportation, and other basic necessities (e.g. clothing, personal care items, etc.) costs. The living wage draws on these cost elements and the rough effects of income and payroll taxes to determine the minimum employment earnings necessary to meet a family's basic needs while also maintaining self-sufficiency.
+\end{quote}
 
-Note about definition of household
-
-List preliminary results
+The original model produced data for 2014. The purpose of this project is to take this model and extend it's use to investigate trends in the living wage for the years 2004 - 2014. This project will look into what variables are most dominant, how the living wage distribution looks across the country, and how race and population affects the living wage distribution. Since the living wage is a measure of how much one needs to earn to meet basic needs, this project will also look at how many people are earning the living wage or less. The original model used 12 different family configurations. To keep the analysis simple, only households made up of a single person are modelled. Future work would expand this analysis to family configurations including children.
 
 \vfill
 \clearpage
-\chapter{Nomenclature}
-\section{Symbols and Greek}
-\begin{tabbing}
-\hspace*{3cm}\= \kill
-  %XXX \= \kill% this line sets tab stop
-  $q'$ \> Heat Flux \\
-  $Q_{rad}$ \> Radiation Heat Flux \\
-  $R$ \> Reaction Rate \\
-  $A$ \> Area [$m^2$] \\
-  $f_{st}$ \> stoichiometric fuel air ratio \\
-  $\phi$ \> fuel-air ratio \\
-  $\sigma$ \> Stefan-Boltzmann constant (5.670373e-8m2K4)\\
-  $T_{meas}$ \> Measured Temperature \\
-  $\chi$ \> Molar Concentration \\
-  $X_i$ \> Molar fration of species $i$\\
-  $\dot{m}$ \> mass flow rate [g/s] \\
-  $\epsilon$ \> Turbulent energy dissipation rate \\
-  $\epsilon$ \> Emissivity \\
-  $k$ \> Turbulent energy production rate \\
-  $\rho$ \> Density \\
-  $\tau$ \> Residence Time \\
-  $\tau$ \> Stress tensor \\
-  $\nu$ \> Kinematic Viscosity \\
-  $C_{\mu}$ \> Turbulent Viscosity\\
-  $S_L$ \> Flame velosity \\
-  $\sigma_{L}$ \> Flame length\\
-  $K_v$ \> Recirculation Ratio\\
-  $v_{rms}$ \> Characteristic velocity\\
-  
-  
-\end{tabbing}
-  \section{Abbreviations}
-\begin{tabbing}
-\hspace*{3cm}\= \kill
- % XXX \= \kill% this line sets tab stop
-  $CFD$ \> Computational Fluid Dynamics \\
-  $CRN$ \> Chemical Reactor Network \\
-  $DLE$ \> Dry Low Emissions \\
-  $LBO$ \> Lean Blowout \\
-  $LPP$ \> Lean Premixed Prevaporized \\
-  $FLOX$ \> Flameless Oxidation \\
-  $NO_x$ \> Oxides of Nitrogen \\
-  $CO$ \> Carbon Monoxide \\
-  $OH$ \> Hydroxyl Radicals \\
-  $UHC$ \> Unburned Hydrocarbons \\
-  $FC$ \> Flameless Combustion \\
-  $EPA$ \> Environmental Protection Agency \\
-  $RQL$ \> Rich Burn Quick quench Lean Burn Combustor \\
-  $DNS$ \> Direct Numerical Simulation \\
-  $RANS$ \> Reynolds Averaged Navier Stokes \\
-  $LES$ \> Large Eddy Simulation \\
-  
-  
-
-\end{tabbing}
-%\pdfbookmark[1]{Zusammenfassung}{Zusammenfassung}
-%\chapter*{Zusammenfassung}
-%Kurze Zusammenfassung des Inhaltes in deutscher Sprache\dots
 %
+%\section{Nomenclature}
+%\begin{tabbing}
+%\hspace*{3cm}\= \kill
+%  %XXX \= \kill% this line sets tab stop
+%  $q'$ \> Heat Flux \\
+%  $Q_{rad}$ \> Radiation Heat Flux \\
+%  $R$ \> Reaction Rate \\
+%  $A$ \> Area [$m^2$] \\
+%  $f_{st}$ \> stoichiometric fuel air ratio \\
+%  $\phi$ \> fuel-air ratio \\
+%  $\sigma$ \> Stefan-Boltzmann constant (5.670373e-8m2K4)\\
+%  $T_{meas}$ \> Measured Temperature \\
+%  $\chi$ \> Molar Concentration \\
+%  $X_i$ \> Molar fration of species $i$\\
+%  $\dot{m}$ \> mass flow rate [g/s] \\
+%  $\epsilon$ \> Turbulent energy dissipation rate \\
+%  $\epsilon$ \> Emissivity \\
+%  $k$ \> Turbulent energy production rate \\
+%  $\rho$ \> Density \\
+%  $\tau$ \> Residence Time \\
+%  $\tau$ \> Stress tensor \\
+%  $\nu$ \> Kinematic Viscosity \\
+%  $C_{\mu}$ \> Turbulent Viscosity\\
+%  $S_L$ \> Flame velosity \\
+%  $\sigma_{L}$ \> Flame length\\
+%  $K_v$ \> Recirculation Ratio\\
+%  $v_{rms}$ \> Characteristic velocity\\
+%\end{tabbing}
+  
+%\section{Abbreviations}
+%\begin{tabbing}
+%\hspace*{3cm}\= \kill
+% % XXX \= \kill% this line sets tab stop
+%  $CFD$ \> Computational Fluid Dynamics \\
+%  $CRN$ \> Chemical Reactor Network \\
+%  $DLE$ \> Dry Low Emissions \\
+%  $LBO$ \> Lean Blowout \\
+%  $LPP$ \> Lean Premixed Prevaporized \\
+%  $FLOX$ \> Flameless Oxidation \\
+%  $NO_x$ \> Oxides of Nitrogen \\
+%  $CO$ \> Carbon Monoxide \\
+%  $OH$ \> Hydroxyl Radicals \\
+%  $UHC$ \> Unburned Hydrocarbons \\
+%  $FC$ \> Flameless Combustion \\
+%  $EPA$ \> Environmental Protection Agency \\
+%  $RQL$ \> Rich Burn Quick quench Lean Burn Combustor \\
+%  $DNS$ \> Direct Numerical Simulation \\
+%  $RANS$ \> Reynolds Averaged Navier Stokes \\
+%  $LES$ \> Large Eddy Simulation \\
+%  
+%  
+%
+%\end{tabbing}
+
 
 \endgroup			
 
