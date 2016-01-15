@@ -2,19 +2,26 @@
 \chapter{Data Sources and Collection}\label{ch:data_collection}
 %************************************************
 
-This section will describe the data collection process. All data files mentioned here are available in the github repository, under the data/ directory. Each data source is typically loaded into a Pandas DataFrame, which can be seen in the code sections linked to in the Appendix, or via the associated IPython notebook. 
+This section will outline how data was gathered for the various model parameters, as well as other data we need to calculate their values. The original model was made for 2014 data and extending this data to the past means we need to be careful that any changes in the underlying data methodology of these parameters needs to be noted. All data files mentioned here are available in the github repository, under the data/ directory. Each data source is typically loaded into a Pandas DataFrame, which can be seen in the code sections linked to in the Appendix, or via the associated IPython notebook. 
 
 \section{Consumer Expenditure Report}
 
-What is the CEX report, what its used for, link to code section in appendix
+The Consumer Expenditure Report\cite{cex_survey} is used by the living wage model to determine 3 variables in the model, $transportation\_cost$, $health\_care\_costs$, and $other\_necessities\_cost$. From their website:
+
+\begin{quote}
+The Consumer Expenditure Survey (CE) program consists of two surveys, the Quarterly Interview Survey and the Diary Survey, that provide information on the buying habits of American consumers, including data on their expenditures, income, and consumer unit (families and single consumers) characteristics ... The CE is important because it is the only Federal survey to provide information on the complete range of consumers' expenditures and incomes, as well as the characteristics of those consumers.
+\end{quote}
+
+After downloading, the specific data needed for the model variables were extracted by hand. All data files are stored under the cex\_survey subdirectory. 
 
 \section{USDA Food Plans}
 
-What is USDA Food Plan, what its used for, link to code section in appendix
+The Cost of Food project from the USDA\cite{usda} produces different food plans (The Thrifty, Low-Cost, Moderate-Cost, and Liberal Food Plans), which represent a nutritious diet at different costs. This dataset determines one variable in the model, $food\_cost$. Also, the original model uses regional weighting factors to better model varying food prices across the county. \cite{usda_regional} After downloading, the specific data needed for the model variables were extracted by hand. All data files are stored under the food subdirectory. 
 
 \section{Free Market Rent Data From HUD}
 
-What is free market rent, what is hud, what its used for, link to code section in appendix
+The U.S. Department of Housing and Urban Development produces the Fair Market Rent dataset, which the model uses as 'gross rent estimates' for the $housing\_cost$ variable. \cite{fmr} After downloading, the specific data needed for the model variable were extracted by hand, using the FMR1 column as the best estimate for the housing costs associated with a 1-bedroom apartment. All data files are stored under the housing\_cost subdirectory. 
+
 
 \section{Medical Expenditure Panel Survey from the AHRQ}
 

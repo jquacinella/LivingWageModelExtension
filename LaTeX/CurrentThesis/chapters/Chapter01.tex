@@ -4,7 +4,7 @@
 
 \section{Introduction to the Living Wage and the Living Wage Model}
 
-The living wage is defined by the origin paper\cite{glasmeier2014} as:
+The living wage is defined by the original paper\cite{glasmeier2014} as:
 
 \begin{quote}
 The living wage model is an alternative measure of basic needs. It is a market-based approach that draws upon geographically specific expenditure data related to a family's likely minimum food, child care, health insurance, housing, transportation, and other basic necessities (e.g. clothing, personal care items, etc.) costs. The living wage draws on these cost elements and the rough effects of income and payroll taxes to determine the minimum employment earnings necessary to meet a family's basic needs while also maintaining self-sufficiency.
@@ -18,12 +18,14 @@ $basic\_needs\_budget = food\_cost + child\_care\_cost + ( insurance\_premiums +
 \newline
 $living\_wage = basic\_needs\_budget + ( basic\_needs\_budget * tax\_rate )$
 \newline
-\newline
 
-We can also define a notion of the living wage gap, which is the difference between a household's income and the living wage. This project will look at the difference between median wages earned and the living wage estimate at the county-level, and as well as the minimum wage.
+The model, in summary, calculates the summation of common costs associated with basic living, and defines how much one needs to earn in wages to cover these costs (accounting for taxes). These variables have vary levels of coarseness: most variables are modelled at a regional level, with housing costs being the only variable modelled at the county level. This is a weakness of the model, and future work should focus on better per-county estimates of these variables.
+
+We can also define a notion of the living wage gap, which is the difference between a household's income and the living wage. This gap is in some sense a measurement of how well a household can live above just above, or how much more income a household needs to meet, mere subsistence.  This project will look at the difference between median wages earned and the living wage estimate at the county-level, and as well as the minimum wage.
 
 The purpose of this project is to take this model and extend it's use to investigate trends in the living wage for the years 2004 - 2014. The project is structured as follows. The data sources that each of the model variables use are described in the Section 2, and the individual model variables are described in Section 3. Section 4 begins the analysis of the living wage distribution across the county. Section 5 looks at how we can compare median and minimum wage levels with the living wage to look at how well single households are doing with regards to meeting basic needs. Commentary will be made throughout the sections and summarized in the Results section, with extra commentary on where future work could go.
 
+All code for this project can be found in the associated Github repository\cite{github}. An alternative to this paper is the associated IPython notebook\cite{notebook}, which is also hosted in the Github repository.
 
 %\begin{figure}[hbt]
 %    \centering

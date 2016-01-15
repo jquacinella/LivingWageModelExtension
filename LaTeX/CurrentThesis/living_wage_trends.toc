@@ -7,10 +7,10 @@
 \contentsline {section}{\numberline {2.1}Consumer Expenditure Report}{3}{section.2.1}
 \contentsline {section}{\numberline {2.2}USDA Food Plans}{3}{section.2.2}
 \contentsline {section}{\numberline {2.3}Free Market Rent Data From HUD}{3}{section.2.3}
-\contentsline {section}{\numberline {2.4}Medical Expenditure Panel Survey from the AHRQ}{3}{section.2.4}
-\contentsline {section}{\numberline {2.5}Tax Data}{3}{section.2.5}
-\contentsline {subsection}{\numberline {2.5.1}State Tax Data}{3}{subsection.2.5.1}
-\contentsline {subsection}{\numberline {2.5.2}Federal Tax Data}{3}{subsection.2.5.2}
+\contentsline {section}{\numberline {2.4}Medical Expenditure Panel Survey from the AHRQ}{4}{section.2.4}
+\contentsline {section}{\numberline {2.5}Tax Data}{4}{section.2.5}
+\contentsline {subsection}{\numberline {2.5.1}State Tax Data}{4}{subsection.2.5.1}
+\contentsline {subsection}{\numberline {2.5.2}Federal Tax Data}{4}{subsection.2.5.2}
 \contentsline {chapter}{\numberline {3}\spacedlowsmallcaps {Model Variables}}{5}{chapter.3}
 \contentsline {section}{\numberline {3.1}Housing Costs}{5}{section.3.1}
 \contentsline {section}{\numberline {3.2}Food Costs}{5}{section.3.2}
@@ -45,7 +45,8 @@
 \contentsline {chapter}{\numberline {6}\spacedlowsmallcaps {Results and Future Work}}{11}{chapter.6}
 \contentsline {section}{\numberline {6.1}Overall Results}{11}{section.6.1}
 \contentsline {section}{\numberline {6.2}Future Work}{11}{section.6.2}
-\contentsline {part}{\numberline {I}Appendix}{15}{part.1}
-\contentsline {chapter}{\numberline {A}\spacedlowsmallcaps {Code Listings}}{17}{appendix.A}
+\contentsline {part}{\numberline {I}Appendix}{13}{part.1}
+\contentsline {chapter}{\numberline {A}\spacedlowsmallcaps {Code Listings}}{15}{appendix.A}
+\contentsline {section}{\numberline {A.1}Data Sources}{15}{section.A.1}
 \vspace {\beforebibskip }
-\contentsline {chapter}{\spacedlowsmallcaps {Bibliography}}{19}{dummy.5}
+\contentsline {chapter}{\spacedlowsmallcaps {Bibliography}}{16}{dummy.5}
