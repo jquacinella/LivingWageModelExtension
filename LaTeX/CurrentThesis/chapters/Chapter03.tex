@@ -3,34 +3,102 @@
 %************************************************
 
 
-This section will describe each model variable, and link to a section of code in the appendix describing how its loaded.
+This section will describe each model variable, and any interesting notes about the data. All code for loading these variables can be found in the associated notebook. \cite{code_model_variables}
 
 \section{Housing Costs}
 
-Most Populous Counties
+Definition from the original model:
+
+\begin{quote}
+We assumed that a one adult family would rent a single occupancy unit (zero bedrooms) for an individual adult household, that a two adult family would rent a one bedroom apartment.
+\end{quote}
+
+Each county is identified by the FIPS code, which is just state code + county code + subcounty code (where subcounty code is only post 2005).
+
 
 \section{Food Costs}
 
-What is USDA Food Plan, what its used for, link to code section in appendix
+Data for the food calculations are available PDF form (see section above about data collection). From the original model documentation:
+
+\begin{quote}
+Adult food consumption costs are estimated by averaging the low - cost plan food costs for males and females between 19 and 50
+\end{quote}
+
+After copying the data by hand, food costs need a correction. We add 20\% to the values from the data sheets, since the notes on all published PDFs state:
+
+\begin{quote}
+The costs given are for individuals in 4-person families. For individuals in other size families, the following adjustments are suggested: 1-person - add 20 percent; ...
+\end{quote}
+
+The notes for the model also state that regional weights are applied to give a better estimate for food costs across the nation. \cite{usda_regional} The result of this section are values for 2014 that match exactly to the data given on the original model website, which lends confidence to the implementation of the methodology.
+
+
+It should be noted that there was a change in methodology the USDA used. Starting in 2006, the USDA changed the age ranges for their healthy meal cost calculations. The differences in range are minimal and should not effect overall estimations or trend analysis.
 
 \section{Child Care Cost}
 
 Currently, we are only looking at households that contain a single adult. Therefore, we do not model the costs of raising a child. One reason why this was done is that the data source for Child Care only goes back to 2006. Expanding on this work would find data for 2004 and 2005, and model the living wage for different family configurations.
 
-\section{Transportation Costs}
+\section{Health Insurance Costs}
 
-\section{Health Care Costs}
+The model uses data from the Medical Expenditure Panel Survey from the Agency for Healthcare Research and Quality (searchable here). Specifically, the model assumes a single adult's insurance costs are best estimated from Table X.C.1 Employee contribution distributions (in dollars) for private-sector employees enrolled in single coverage. This survey gives the mean cost for a single adult per state. Table X.C.1 was only added to the survey starting in 2006. There is an alternative table that appears in all years (Table II.C.2: Average total employee contribution (in dollars) per enrolled employee for single coverage at private-sector establishments), which is what is downloaded from the previous section.
 
-\section{Other Costs}
+One problem is that in 2007 this survey was not done. This was solved by linearly impute data from 2006 and 2008, which seems reasonable if we can assume that costs tend to go up every year and not go down. This is true for the data that was looked at for this project.
+
+Another problem is that some states do not appear in the earlier data due to funding issues (and not being able to get a statistically significant sample). I fix this by using the value in the data for 'states not specified' and fill in the missing states.
+
+
+\section{Transportation, Health Care and Other Costs}
+
+The model variables for transportation, health care and other costs are all based on the Customer Expenditure Survey data. The original model defines transportation costs as sum of the costs of sub-variables (1) Cars and trucks (used), (2) gasoline and motor oil, (3) other vehicle expenses, and (4) public transportation fields under "Transportation" section in the report.  The original model defines health care costs as sum of the costs of sub-variables (1) health insurance costs for employer sponsored plans, (3) medical services, (3) drugs, and (4) medical supplies under the "Health Care" section. Expenditures for other necessities are based on the sub-variables (1) Apparel and services, (2) Housekeeping supplies, (3) Personal care products and services, (4) Reading, and (5) Miscellaneous under the "Other" section.
+
+For each sub-variable, we get the amount of money (in millions) and the percentage of that that single adults spend. After multiple those numbers (accounting for units) and dividing by the total number of single adults in the survey gives us a mean total cost per adult.
+
+The original model takes into account regional drift by scaling based on each regions. Currently, this model does not take this to effect, as the original model is ambiguous on how to calculate it. This is a weakness in the current model, as regional weighting would help vary these variables across counties. Without it, these variables will not create any differences between counties in any given year.
 
 \section{Taxes}
 
+To more accurately reflect how much one needs to earn pre-taxes to earn the living wage post-taxes. From the documentation:
+
+\begin{quote}
+Estimates for payroll taxes, state income tax, and federal income tax rates are included in the calculation of a living wage. Property taxes and sales taxes are already represented in the budget estimates through the cost of rent and other necessities.
+\end{quote}
+
+
 \subsection{Payroll taxes}
+
+The payroll tax data is simply the federal tax rate for a given year. From the model documentation:
+
+\begin{quote}
+A flat payroll tax and state income tax rate is applied to the basic needs budget. Payroll tax is a nationally representative rate as specified in the Federal Insurance Contributions Act.
+\end{quote}
+
+The original model used a value of 6.2\%. However, the data from the SSA website states that 6.2\% is the rate for just the Social Security part of the FICA tax. This might be a mistake in the original model. This project will use the combined rate (which includes Medicare's Hospital Insurance rate) when calculating final numbers for my model.
+
+Another thing to note is that in 2011 and 2012, the rate for the Social Security part of the FICA tax was 2\% lower for individuals.
 
 \subsection{State Taxes}
 
+The model also uses state tax rates in estimating the total tax rate. From the model documentation: 
+
+\begin{quote}
+The state tax rate is taken from the second lowest income tax rate for 2011 for the state as reported by the CCH State Tax Handbook (the lowest bracket was used if the second lowest bracket was for incomes of over 30,000 ) (we assume no deductions).
+\end{quote}
+
+The second lowest tax bracket's rate is chosen as the rate for the state (except when the bracket is for incomes > 30k, as the original model suggests). This only came into play in the later years for Vermont, North Dakota, and RI. To be consistent, the lowest tax bracket is used for all years for these states.
+
+Note that this project used the rate under "Single" since the model is only for adults. This is done by hand by importing correct numbers from the spreadsheet.
+
 \subsection{Federal Income Tax Rate}
+
+The model also uses state tax rates in estimating the total tax rate. From the model documentation: 
+
+\begin{quote}
+The federal income tax rate is calculated as a percentage of total income based on the average tax paid by median-income four-person families as reported by the Tax Policy Center of the Urban Institute and Brookings Institution for 2013.
+\end{quote}
+
+It should be noted that the model authors used "Historical Federal Income Tax Rates for a Family of Four". Since I am focusing on single adults, this model should use "Historical Average Federal Tax Rates for Nonelderly Childless Households". However, that data stops at 2011 for some reason, so for consistency, this model will stick with the model definition and use the Family of Four rate.
 
 \section{Final DataFrame}
 
-The final data frame, that includes each individual model variable as well as the total living wage \('total_cost'\), with a row for each county per year, is created in section bleh. This DataFrame is used by the following sections of analysis.
+The final data frame, that includes each individual model variable as well as the total living wage \('total\_cost'\), with a row for each county per year, is created at the end of the code section cited in this section. This DataFrame is used by the following sections of analysis.

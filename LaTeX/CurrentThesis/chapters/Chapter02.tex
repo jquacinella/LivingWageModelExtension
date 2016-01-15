@@ -22,17 +22,32 @@ The Cost of Food project from the USDA\cite{usda} produces different food plans 
 
 The U.S. Department of Housing and Urban Development produces the Fair Market Rent dataset, which the model uses as 'gross rent estimates' for the $housing\_cost$ variable. \cite{fmr} After downloading, the specific data needed for the model variable were extracted by hand, using the FMR1 column as the best estimate for the housing costs associated with a 1-bedroom apartment. All data files are stored under the housing\_cost subdirectory. 
 
+\section{Most Populated Counties}
+
+An article from Business Insider lists the top 150 counties by population. \cite{populated_counties} This project uses this to determine if there are systemic differences between the living wage with respect to county population.
 
 \section{Medical Expenditure Panel Survey from the AHRQ}
 
-What is MEPS, what is AHRQ, what its used for, link to code section in appendix
+The original model uses data from the Medical Expenditure Panel Survey (MEPS), which is done by the The Agency for Healthcare Research and Quality. From their website \cite{meps}:
+
+\begin{quote}
+The Medical Expenditure Panel Survey, which began in 1996, is a set of large-scale surveys of families and individuals, their medical providers (doctors, hospitals, pharmacies, etc.), and employers across the United States. 
+\end{quote}
+
+This data is used for $insurance\_premiums$ model variable. All data files are stored under the insurance subdirectory. 
 
 \section{Tax Data}
 
+The following data sources are used in calculating the $tax\_rate$ model variable.
+
+\subsection{Payroll Taxes}
+
+Payroll tax data was manually downloaded from the Social Security and Medicare Tax Rates web page from the Social Security Administration website. \cite{ssa} 
+
 \subsection{State Tax Data}
 
-link to code section
+The Tax Foundation produces a spreadsheet of official State income tax rates. This spreadsheet is not in a useful format for analysis, so data was manually copied to formatted\_state\_taxes.csv file under the taxes subdirectory. \cite{state_tax}
 
 \subsection{Federal Tax Data}
 
-link to code section
+The Tax Policy Center produces a dataset called the "Historical Federal Income Tax Rates for a Family of Four". While this dataset is not quite what this model needs, since the model developed for this project only modeled single adult households, due to a lack of data for single households (which only goes back to 2011), this dataset is used. \cite{federal_tax} Since all counties experience the same federal tax rate, inaccuracies here would not affect overall trends, but produce a worse approximation to the living wage consistently across counties.
