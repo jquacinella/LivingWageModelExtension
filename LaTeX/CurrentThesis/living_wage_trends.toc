@@ -13,41 +13,38 @@
 \contentsline {subsection}{\numberline {2.6.1}Payroll Taxes}{4}{subsection.2.6.1}
 \contentsline {subsection}{\numberline {2.6.2}State Tax Data}{4}{subsection.2.6.2}
 \contentsline {subsection}{\numberline {2.6.3}Federal Tax Data}{4}{subsection.2.6.3}
-\contentsline {chapter}{\numberline {3}\spacedlowsmallcaps {Model Variables}}{5}{chapter.3}
-\contentsline {section}{\numberline {3.1}Housing Costs}{5}{section.3.1}
-\contentsline {section}{\numberline {3.2}Food Costs}{5}{section.3.2}
-\contentsline {section}{\numberline {3.3}Child Care Cost}{5}{section.3.3}
-\contentsline {section}{\numberline {3.4}Health Insurance Costs}{6}{section.3.4}
-\contentsline {section}{\numberline {3.5}Transportation, Health Care and Other Costs}{6}{section.3.5}
-\contentsline {section}{\numberline {3.6}Taxes}{6}{section.3.6}
-\contentsline {subsection}{\numberline {3.6.1}Payroll taxes}{7}{subsection.3.6.1}
-\contentsline {subsection}{\numberline {3.6.2}State Taxes}{7}{subsection.3.6.2}
-\contentsline {subsection}{\numberline {3.6.3}Federal Income Tax Rate}{7}{subsection.3.6.3}
-\contentsline {section}{\numberline {3.7}Final DataFrame}{8}{section.3.7}
-\contentsline {chapter}{\numberline {4}\spacedlowsmallcaps {Introductory Analysis}}{9}{chapter.4}
-\contentsline {section}{\numberline {4.1}Living Wage in Individual Counties}{9}{section.4.1}
-\contentsline {section}{\numberline {4.2}State Averages of the Living Wage}{9}{section.4.2}
-\contentsline {section}{\numberline {4.3}Choropleth Of Counties: 2004, 2006, 2014}{10}{section.4.3}
-\contentsline {section}{\numberline {4.4}Regional Averages of the Living Wage}{10}{section.4.4}
-\contentsline {section}{\numberline {4.5}National Average Breakdown Across 2004 - 2014}{10}{section.4.5}
-\contentsline {section}{\numberline {4.6}Living Wage Distribution in Most Populous Counties}{10}{section.4.6}
-\contentsline {section}{\numberline {4.7}Living Wage Distribution by Race}{10}{section.4.7}
-\contentsline {subsection}{\numberline {4.7.1}Loading Race Data from 2010 Census}{10}{subsection.4.7.1}
-\contentsline {subsection}{\numberline {4.7.2}Living Wage County (Non-Weighted) Breakdown by Race}{11}{subsection.4.7.2}
-\contentsline {subsection}{\numberline {4.7.3}Living Wage County (Weighted) Breakdown by Race}{11}{subsection.4.7.3}
-\contentsline {subsection}{\numberline {4.7.4}Population Weighted Averages Broken Down By Race}{11}{subsection.4.7.4}
-\contentsline {chapter}{\numberline {5}\spacedlowsmallcaps {Living Wage Gap}}{15}{chapter.5}
-\contentsline {section}{\numberline {5.1}Data Collection}{15}{section.5.1}
-\contentsline {subsection}{\numberline {5.1.1}SAIPE - Small Area Income and Poverty Estimates}{15}{subsection.5.1.1}
-\contentsline {subsection}{\numberline {5.1.2}Minimum Wage Data}{15}{subsection.5.1.2}
-\contentsline {section}{\numberline {5.2}Distribution of The Median-Gap}{15}{section.5.2}
-\contentsline {section}{\numberline {5.3}Distribution of The Minimum-Wage-Gap}{15}{section.5.3}
-\contentsline {section}{\numberline {5.4}Percentage of Single Households At or Below the Living Wage}{15}{section.5.4}
-\contentsline {chapter}{\numberline {6}\spacedlowsmallcaps {Results and Future Work}}{17}{chapter.6}
-\contentsline {section}{\numberline {6.1}Overall Results}{17}{section.6.1}
-\contentsline {section}{\numberline {6.2}Future Work}{17}{section.6.2}
-\contentsline {part}{\numberline {I}Appendix}{19}{part.1}
-\contentsline {chapter}{\numberline {A}\spacedlowsmallcaps {Code Listings}}{21}{appendix.A}
-\contentsline {section}{\numberline {A.1}Data Sources}{21}{section.A.1}
+\contentsline {section}{\numberline {2.7}Race Data from 2010 Census}{5}{section.2.7}
+\contentsline {section}{\numberline {2.8}Median Wage Data}{5}{section.2.8}
+\contentsline {section}{\numberline {2.9}Minimum Wage}{5}{section.2.9}
+\contentsline {section}{\numberline {2.10}Wage Distribution}{5}{section.2.10}
+\contentsline {chapter}{\numberline {3}\spacedlowsmallcaps {Model Variables}}{7}{chapter.3}
+\contentsline {section}{\numberline {3.1}Housing Costs}{7}{section.3.1}
+\contentsline {section}{\numberline {3.2}Food Costs}{7}{section.3.2}
+\contentsline {section}{\numberline {3.3}Child Care Cost}{7}{section.3.3}
+\contentsline {section}{\numberline {3.4}Health Insurance Costs}{8}{section.3.4}
+\contentsline {section}{\numberline {3.5}Transportation, Health Care and Other Costs}{8}{section.3.5}
+\contentsline {section}{\numberline {3.6}Taxes}{8}{section.3.6}
+\contentsline {subsection}{\numberline {3.6.1}Payroll taxes}{9}{subsection.3.6.1}
+\contentsline {subsection}{\numberline {3.6.2}State Taxes}{9}{subsection.3.6.2}
+\contentsline {subsection}{\numberline {3.6.3}Federal Income Tax Rate}{9}{subsection.3.6.3}
+\contentsline {section}{\numberline {3.7}Final DataFrame}{10}{section.3.7}
+\contentsline {chapter}{\numberline {4}\spacedlowsmallcaps {Introductory Analysis}}{11}{chapter.4}
+\contentsline {section}{\numberline {4.1}Living Wage in Individual Counties}{11}{section.4.1}
+\contentsline {section}{\numberline {4.2}State Averages of the Living Wage}{12}{section.4.2}
+\contentsline {section}{\numberline {4.3}Choropleth Of Counties: 2004, 2006, 2014}{12}{section.4.3}
+\contentsline {section}{\numberline {4.4}Regional Averages of the Living Wage}{14}{section.4.4}
+\contentsline {section}{\numberline {4.5}National Average Breakdown Across 2004 - 2014}{15}{section.4.5}
+\contentsline {section}{\numberline {4.6}Living Wage Distribution in Most Populous Counties}{16}{section.4.6}
+\contentsline {section}{\numberline {4.7}Living Wage Distribution by Race}{19}{section.4.7}
+\contentsline {subsection}{\numberline {4.7.1}Living Wage County (Non-Weighted) Breakdown by Race}{19}{subsection.4.7.1}
+\contentsline {subsection}{\numberline {4.7.2}Living Wage County (Weighted) Breakdown by Race}{22}{subsection.4.7.2}
+\contentsline {subsection}{\numberline {4.7.3}Population Weighted Averages Broken Down By Race}{27}{subsection.4.7.3}
+\contentsline {chapter}{\numberline {5}\spacedlowsmallcaps {Living Wage Gap}}{29}{chapter.5}
+\contentsline {section}{\numberline {5.1}Distribution of The Median-Gap}{29}{section.5.1}
+\contentsline {section}{\numberline {5.2}Distribution of The Minimum-Wage-Gap}{30}{section.5.2}
+\contentsline {section}{\numberline {5.3}Percentage of Single Households At or Below the Living Wage}{31}{section.5.3}
+\contentsline {chapter}{\numberline {6}\spacedlowsmallcaps {Results and Future Work}}{35}{chapter.6}
+\contentsline {section}{\numberline {6.1}Overall Results}{35}{section.6.1}
+\contentsline {section}{\numberline {6.2}Future Work}{36}{section.6.2}
 \vspace {\beforebibskip }
-\contentsline {chapter}{\spacedlowsmallcaps {Bibliography}}{22}{dummy.5}
+\contentsline {chapter}{\spacedlowsmallcaps {Bibliography}}{37}{dummy.4}

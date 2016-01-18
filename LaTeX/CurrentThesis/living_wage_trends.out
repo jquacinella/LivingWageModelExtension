@@ -2,53 +2,49 @@
 \BOOKMARK [1][-]{tableofcontents.1}{Contents}{}% 2
 \BOOKMARK [1][-]{lof.1}{List of Figures}{}% 3
 \BOOKMARK [1][-]{lot.1}{List of Tables}{}% 4
-\BOOKMARK [1][-]{lol.1}{Listings}{}% 5
-\BOOKMARK [0][-]{chapter.1}{Introduction}{}% 6
-\BOOKMARK [1][-]{section.1.1}{Introduction to the Living Wage and the Living Wage Model}{chapter.1}% 7
-\BOOKMARK [0][-]{chapter.2}{Data Sources and Collection}{}% 8
-\BOOKMARK [1][-]{section.2.1}{Consumer Expenditure Report}{chapter.2}% 9
-\BOOKMARK [1][-]{section.2.2}{USDA Food Plans}{chapter.2}% 10
-\BOOKMARK [1][-]{section.2.3}{Free Market Rent Data From HUD}{chapter.2}% 11
-\BOOKMARK [1][-]{section.2.4}{Most Populated Counties}{chapter.2}% 12
-\BOOKMARK [1][-]{section.2.5}{Medical Expenditure Panel Survey from the AHRQ}{chapter.2}% 13
-\BOOKMARK [1][-]{section.2.6}{Tax Data}{chapter.2}% 14
-\BOOKMARK [2][-]{subsection.2.6.1}{Payroll Taxes}{section.2.6}% 15
-\BOOKMARK [2][-]{subsection.2.6.2}{State Tax Data}{section.2.6}% 16
-\BOOKMARK [2][-]{subsection.2.6.3}{Federal Tax Data}{section.2.6}% 17
-\BOOKMARK [0][-]{chapter.3}{Model Variables}{}% 18
-\BOOKMARK [1][-]{section.3.1}{Housing Costs}{chapter.3}% 19
-\BOOKMARK [1][-]{section.3.2}{Food Costs}{chapter.3}% 20
-\BOOKMARK [1][-]{section.3.3}{Child Care Cost}{chapter.3}% 21
-\BOOKMARK [1][-]{section.3.4}{Health Insurance Costs}{chapter.3}% 22
-\BOOKMARK [1][-]{section.3.5}{Transportation, Health Care and Other Costs}{chapter.3}% 23
-\BOOKMARK [1][-]{section.3.6}{Taxes}{chapter.3}% 24
-\BOOKMARK [2][-]{subsection.3.6.1}{Payroll taxes}{section.3.6}% 25
-\BOOKMARK [2][-]{subsection.3.6.2}{State Taxes}{section.3.6}% 26
-\BOOKMARK [2][-]{subsection.3.6.3}{Federal Income Tax Rate}{section.3.6}% 27
-\BOOKMARK [1][-]{section.3.7}{Final DataFrame}{chapter.3}% 28
-\BOOKMARK [0][-]{chapter.4}{Introductory Analysis}{}% 29
-\BOOKMARK [1][-]{section.4.1}{Living Wage in Individual Counties}{chapter.4}% 30
-\BOOKMARK [1][-]{section.4.2}{State Averages of the Living Wage}{chapter.4}% 31
-\BOOKMARK [1][-]{section.4.3}{Choropleth Of Counties: 2004, 2006, 2014}{chapter.4}% 32
-\BOOKMARK [1][-]{section.4.4}{Regional Averages of the Living Wage}{chapter.4}% 33
-\BOOKMARK [1][-]{section.4.5}{National Average Breakdown Across 2004 - 2014}{chapter.4}% 34
-\BOOKMARK [1][-]{section.4.6}{Living Wage Distribution in Most Populous Counties}{chapter.4}% 35
-\BOOKMARK [1][-]{section.4.7}{Living Wage Distribution by Race}{chapter.4}% 36
-\BOOKMARK [2][-]{subsection.4.7.1}{Loading Race Data from 2010 Census}{section.4.7}% 37
-\BOOKMARK [2][-]{subsection.4.7.2}{Living Wage County \(Non-Weighted\) Breakdown by Race}{section.4.7}% 38
-\BOOKMARK [2][-]{subsection.4.7.3}{Living Wage County \(Weighted\) Breakdown by Race}{section.4.7}% 39
-\BOOKMARK [2][-]{subsection.4.7.4}{Population Weighted Averages Broken Down By Race}{section.4.7}% 40
-\BOOKMARK [0][-]{chapter.5}{Living Wage Gap}{}% 41
-\BOOKMARK [1][-]{section.5.1}{Data Collection}{chapter.5}% 42
-\BOOKMARK [2][-]{subsection.5.1.1}{SAIPE - Small Area Income and Poverty Estimates}{section.5.1}% 43
-\BOOKMARK [2][-]{subsection.5.1.2}{Minimum Wage Data}{section.5.1}% 44
-\BOOKMARK [1][-]{section.5.2}{Distribution of The Median-Gap}{chapter.5}% 45
-\BOOKMARK [1][-]{section.5.3}{Distribution of The Minimum-Wage-Gap}{chapter.5}% 46
-\BOOKMARK [1][-]{section.5.4}{Percentage of Single Households At or Below the Living Wage}{chapter.5}% 47
-\BOOKMARK [0][-]{chapter.6}{Results and Future Work}{}% 48
-\BOOKMARK [1][-]{section.6.1}{Overall Results}{chapter.6}% 49
-\BOOKMARK [1][-]{section.6.2}{Future Work}{chapter.6}% 50
-\BOOKMARK [-1][-]{part.1}{Appendix}{}% 51
-\BOOKMARK [0][-]{appendix.A}{Code Listings}{part.1}% 52
-\BOOKMARK [1][-]{section.A.1}{Data Sources}{appendix.A}% 53
-\BOOKMARK [0][-]{dummy.5}{Bibliography}{part.1}% 54
+\BOOKMARK [0][-]{chapter.1}{Introduction}{}% 5
+\BOOKMARK [1][-]{section.1.1}{Introduction to the Living Wage and the Living Wage Model}{chapter.1}% 6
+\BOOKMARK [0][-]{chapter.2}{Data Sources and Collection}{}% 7
+\BOOKMARK [1][-]{section.2.1}{Consumer Expenditure Report}{chapter.2}% 8
+\BOOKMARK [1][-]{section.2.2}{USDA Food Plans}{chapter.2}% 9
+\BOOKMARK [1][-]{section.2.3}{Free Market Rent Data From HUD}{chapter.2}% 10
+\BOOKMARK [1][-]{section.2.4}{Most Populated Counties}{chapter.2}% 11
+\BOOKMARK [1][-]{section.2.5}{Medical Expenditure Panel Survey from the AHRQ}{chapter.2}% 12
+\BOOKMARK [1][-]{section.2.6}{Tax Data}{chapter.2}% 13
+\BOOKMARK [2][-]{subsection.2.6.1}{Payroll Taxes}{section.2.6}% 14
+\BOOKMARK [2][-]{subsection.2.6.2}{State Tax Data}{section.2.6}% 15
+\BOOKMARK [2][-]{subsection.2.6.3}{Federal Tax Data}{section.2.6}% 16
+\BOOKMARK [1][-]{section.2.7}{Race Data from 2010 Census}{chapter.2}% 17
+\BOOKMARK [1][-]{section.2.8}{Median Wage Data}{chapter.2}% 18
+\BOOKMARK [1][-]{section.2.9}{Minimum Wage}{chapter.2}% 19
+\BOOKMARK [1][-]{section.2.10}{Wage Distribution}{chapter.2}% 20
+\BOOKMARK [0][-]{chapter.3}{Model Variables}{}% 21
+\BOOKMARK [1][-]{section.3.1}{Housing Costs}{chapter.3}% 22
+\BOOKMARK [1][-]{section.3.2}{Food Costs}{chapter.3}% 23
+\BOOKMARK [1][-]{section.3.3}{Child Care Cost}{chapter.3}% 24
+\BOOKMARK [1][-]{section.3.4}{Health Insurance Costs}{chapter.3}% 25
+\BOOKMARK [1][-]{section.3.5}{Transportation, Health Care and Other Costs}{chapter.3}% 26
+\BOOKMARK [1][-]{section.3.6}{Taxes}{chapter.3}% 27
+\BOOKMARK [2][-]{subsection.3.6.1}{Payroll taxes}{section.3.6}% 28
+\BOOKMARK [2][-]{subsection.3.6.2}{State Taxes}{section.3.6}% 29
+\BOOKMARK [2][-]{subsection.3.6.3}{Federal Income Tax Rate}{section.3.6}% 30
+\BOOKMARK [1][-]{section.3.7}{Final DataFrame}{chapter.3}% 31
+\BOOKMARK [0][-]{chapter.4}{Introductory Analysis}{}% 32
+\BOOKMARK [1][-]{section.4.1}{Living Wage in Individual Counties}{chapter.4}% 33
+\BOOKMARK [1][-]{section.4.2}{State Averages of the Living Wage}{chapter.4}% 34
+\BOOKMARK [1][-]{section.4.3}{Choropleth Of Counties: 2004, 2006, 2014}{chapter.4}% 35
+\BOOKMARK [1][-]{section.4.4}{Regional Averages of the Living Wage}{chapter.4}% 36
+\BOOKMARK [1][-]{section.4.5}{National Average Breakdown Across 2004 - 2014}{chapter.4}% 37
+\BOOKMARK [1][-]{section.4.6}{Living Wage Distribution in Most Populous Counties}{chapter.4}% 38
+\BOOKMARK [1][-]{section.4.7}{Living Wage Distribution by Race}{chapter.4}% 39
+\BOOKMARK [2][-]{subsection.4.7.1}{Living Wage County \(Non-Weighted\) Breakdown by Race}{section.4.7}% 40
+\BOOKMARK [2][-]{subsection.4.7.2}{Living Wage County \(Weighted\) Breakdown by Race}{section.4.7}% 41
+\BOOKMARK [2][-]{subsection.4.7.3}{Population Weighted Averages Broken Down By Race}{section.4.7}% 42
+\BOOKMARK [0][-]{chapter.5}{Living Wage Gap}{}% 43
+\BOOKMARK [1][-]{section.5.1}{Distribution of The Median-Gap}{chapter.5}% 44
+\BOOKMARK [1][-]{section.5.2}{Distribution of The Minimum-Wage-Gap}{chapter.5}% 45
+\BOOKMARK [1][-]{section.5.3}{Percentage of Single Households At or Below the Living Wage}{chapter.5}% 46
+\BOOKMARK [0][-]{chapter.6}{Results and Future Work}{}% 47
+\BOOKMARK [1][-]{section.6.1}{Overall Results}{chapter.6}% 48
+\BOOKMARK [1][-]{section.6.2}{Future Work}{chapter.6}% 49
+\BOOKMARK [0][-]{dummy.4}{Bibliography}{}% 50

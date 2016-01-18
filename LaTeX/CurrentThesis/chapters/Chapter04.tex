@@ -6,19 +6,21 @@ This section will start to look at the living wage data to look for trends. Firs
 
 \section{Living Wage in Individual Counties}
 
-\begin{figure}[hbt]
+To start off, lets take a look at the data generated for the living wage estimates for counties. This will serve as a spot check to make sure that the data generated at least looks sensible. Figure \ref{f:ch4_individual} shows the living wage trend for 3 counties (Kings, Mercer and Orange County). This is not terribly interesting, but does show that the living wage estimates are within a reasonable range, and a manual inspection of the data does not show any NAs or suspicious values. It is interesting to note that both Kings and MErcer county seem to have a linearly increasing living wage, with a levelling off / decrease towards 2012 - 2014. Orange County, however, seems flatter, with a sharp increase towards the end.
+
+\begin{figure}[H]
     \centering
         \includegraphics[width=1.1\textwidth]{county_trend.png}
         \caption{Living Wage Trend for Select Counties}
     \label{f:ch4_individual}
 \end{figure}
 
-Figure \ref{f:ch4_individual} shows
-
-
 
 \section{State Averages of the Living Wage}
 
+Now, we can aggregate these living wages up to the state level and see if any trends emerge. We calculate the living wage averages for states, weighed by the county population. Figure \ref{f:ch4_state_trend} shows the state averages for 4 states, two from each region (indicated by color). One can see that there are stark differences between state averages.
+
+\textbf{TODO: Expand}
 
 \begin{figure}[hbt]
     \centering
@@ -27,62 +29,191 @@ Figure \ref{f:ch4_individual} shows
     \label{f:ch4_state_trend}
 \end{figure}
 
-Figure \ref{f:ch4_state_trend} shows
 
 
 \section{Choropleth Of Counties: 2004, 2006, 2014}
 
-\begin{figure}[hbt]
+A Choropleth map of the United States is a good way to get an overall view of the living wage distribution for any given year. Using the calculated living wage estimates, choropleth maps are generated for sample years. Figure \ref{f:ch4_county_map_2004} shows the living wage county distribution for 2004; Figure \ref{f:ch4_county_map_2006} shows the same distribution in 2006; Figure \ref{f:ch4_county_map_2014} shows it for 2014. Once notices that large portions of the 'middle county' (Midwest and South regions) generally have lower living wages, while the East and West regions have higher living wages. Also, as would be expected, the maps get darker with time, indicating a general increase of the living wage over time.
+
+
+\begin{figure}[H]
     \centering
-        \includegraphics[width=1.1\textwidth]{county_map_2004.png}
+        \includegraphics[width=\textwidth]{county_map_2004.png}
         \caption{Choropleth of Counties based on Living Wage, 2004}
     \label{f:ch4_county_map_2004}
 \end{figure}
 
-Figure \ref{f:ch4_county_map_2004} shows
-
-\begin{figure}[hbt]
+\begin{figure}[H]
     \centering
-        \includegraphics[width=1.1\textwidth]{county_map_2006.png}
+        \includegraphics[width=\textwidth]{county_map_2006.png}
         \caption{Choropleth of Counties based on Living Wage, 2006}
     \label{f:ch4_county_map_2006}
 \end{figure}
 
-Figure \ref{f:ch4_county_map_2006} shows
-
-\begin{figure}[hbt]
+\begin{figure}[H]
     \centering
-        \includegraphics[width=1.1\textwidth]{county_map_2014.png}
+        \includegraphics[width=\textwidth]{county_map_2014.png}
         \caption{Choropleth of Counties based on Living Wage, 2014}
     \label{f:ch4_county_map_2014}
 \end{figure}
 
-Figure \ref{f:ch4_county_map_2014} shows
+
+
 
 \section{Regional Averages of the Living Wage}
 
-\begin{figure}[hbt]
+Going up to the next level of aggregation, we can also look at the trends of regional averages, using Census definitions of regions. Figure \ref{f:ch4_regional_trend} shows these trends. Clearly the Eastern region is the worst off, consistently over the model time period. The South and Midwest start at similar values but a gap emerges that ends up staying consistent. As seen before, we see a general increase of the living wage over time for all regions.
+
+\begin{figure}[H]
     \centering
         \includegraphics[width=1.1\textwidth]{regional_trend.png}
         \caption{Regional Trend of the Living Wage}
     \label{f:ch4_regional_trend}
 \end{figure}
 
-Figure \ref{f:ch4_regional_trend} shows
+
+
 
 \section{National Average Breakdown Across 2004 - 2014}
 
+Since the final value from the model is made up of 6 model variables, we can break down these averages to see which variable might be varying the most, or dominates the other variables due to its value. Figure \ref{f:ch4_national_avg_breakdown} shows the trend in the national average living wage over the model years, broken down by model variable. This clearly shows that $housing\_cost$ is by far the most influential variable: not only does it dominate in value, but has the highest rate of change over time. The $housing\_cost$ value dominates due to the nature of the living wage (as rent is typically the largest amount one spends per year). The $housing\_cost$ variable also has the highest variance since its the only variable granular at the county level. Future versions of this model should try to find county-level estimates of other model variables to increase its accuracy.
+
+\begin{figure}[H]
+    \centering
+        \includegraphics[width=\textwidth]{national_avg_breakdown.png}
+        \caption{Breakdown of National Average of the Living Wage}
+    \label{f:ch4_national_avg_breakdown}
+\end{figure}
+
+
+
+
 \section{Living Wage Distribution in Most Populous Counties}
+
+An article from Business Insider \cite{populated_counties} listed the top 150 counties by population. Figure \ref{f:ch4_populous_dist_and_trend} shows the distribution of living wage values over time separated by this grouping. The populated county distributions are spread out more (std: 3123.05) than the non-populated ones (std: 1791.76). Also, it seems that the populated county distributions are almost bimodal, with peaks labelled in the figure. In light of this, I separate the most populous counties into two subgroups in the subsequent visualizations and analysis, where 'most1' are the counties in the top 150 most populous counties but with a total cost in the bottom portion of the group; 'most2', the top portion of the group.
+
+Figure \ref{f:ch4_peaks_by_populous} shows the trend in the distribution peaks, labelled by population group. What is interesting here is that the different between the peak in the least-populous county group and the two peaks in the most-populous group is very steady in value, despite a general increase over time. This seems to insinuate that living in a more populated area comes at the cost of an increase in the living wage needed, and that this cost is maintained over time.
+
+Table \ref{t:ch4_table_variable_delta_by_population} shows variables in the model to account for the differences in the living wage across the least and most populated counties. Figure \ref{f:ch4_variable_percentage_populous} shows this same breakdown, but as relative percentages. As you can see, rent is the dominate variable in explaining the differences between population group.
+
+\begin{figure}[H]
+    \centering
+        \includegraphics[width=\textwidth,height=\textheight]{populous_dist_and_trend.png}
+        \caption{Living Wage Distribution of Populous vs Non-Populous Counties}
+    \label{f:ch4_populous_dist_and_trend}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+        \includegraphics[width=\textwidth,height=0.45\textheight]{peaks_by_populous.png}
+        \caption{Living Wage Peaks by Grouped By Population}
+    \label{f:ch4_peaks_by_populous}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+        \includegraphics[width=\textwidth,height=0.45\textheight]{variable_percentage_populous.png}
+        \caption{Model Variable Percentage of Total by Population Group (2014)}
+    \label{f:ch4_variable_percentage_populous}
+\end{figure}
+
+%\begin{table}[h!]
+\begin{table}[H]
+\centering
+ \begin{tabular}{||c c c c||} 
+ \hline
+ Variable & Diff Most2 and Most Pop	& Diff Most2 and Least Pop & Diff Most1 and Least Pop \\ [0.5ex] 
+ \hline\hline
+ food\_cost & \$197.52 & \$306.93 & \$109.41 \\ 
+ insurance\_cost & \$48.47 & \$67.46 & \$18.99 \\
+ healthcare\_cost & \$0.00 &	\$0.00 & \$0.00 \\
+ housing\_cost &	\$5,190.87 &	\$7,668.49 &	 \$2,477.62 \\
+ transportation\_cost & \$0.00 & \$0.00 & \$0.00 \\
+ other\_cost & \$0.00 & \$0.00 & \$0.00 \\
+ total\_cost & \$6,119.75 & \$9,053.42 & \$2,933.67 \\ [1ex] 
+ \hline
+ \end{tabular}
+ \label{t:ch4_table_variable_delta_by_population}
+ \caption{Average values across counties in different population groups for all model variables}
+\end{table}
+
+
+
 
 \section{Living Wage Distribution by Race}
 
-\subsection{Loading Race Data from 2010 Census}
+This section will investigate how the living wage breaks down across the country by race. A note about the methodology here: racial breakdowns in each county come from the 2010 Census data, which means this model is a bit inaccurate since these proportions change over time. For a more accurate measurements, more data would need to be gathered about how these racial proportions change over time.
 
-Move to data collection section
-	
 \subsection{Living Wage County (Non-Weighted) Breakdown by Race}
+
+This section will look at the distribution of the living wage across time and race, with the living wage not weighed by population. A county is counted in the average for a given race if that give race had a population that meets a threshold. The living wage is then averages across the counties that 'count' for that race. This was initially done as a way of starting analysis despite the lack of support in matplotlib for generating weighted box plots or violin plots. The next subsection will explore a population weighted average
+
+Figure \ref{f:ch4_distribution_race_boxplot} and Figure \ref{f:ch4_distribution_race_boxplot2} shows boxplots of the distribution of the living wage, broken down by year and race. Both figures are produced to make comparing distributions across races or comparing across years for the same race easy. Figure \ref{f:ch4_distribution_race_density} shows the same information as the previous  figures, but as density plots overlaid on each other. It becomes a bit difficult to compare across races since they are overlaid, so the "Asian" and "Pacific Islander" aces are put into their own figure.
+
+\begin{figure}[H]
+    \centering
+        \includegraphics[width=\textwidth]{distribution_race_boxplot.png}
+        \caption{Living Wage Distribution for Race By Year}
+    \label{f:ch4_distribution_race_boxplot}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+        \includegraphics[width=\textwidth]{distribution_race_boxplot2.png}
+        \caption{Living Wage Distribution for Year by Race}
+    \label{f:ch4_distribution_race_boxplot2}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+        \includegraphics[width=\textwidth]{distribution_race_density.png}
+        \caption{Living Wage Density Plots for Race By Year}
+    \label{f:ch4_distribution_race_density}
+\end{figure}
+
+
+
 
 \subsection{Living Wage County (Weighted) Breakdown by Race}
 
+This section will look at the distribution of the living wage across time and race, with the living wage not weighed by population. Every county's population is broken down by race, and the living wage is then averages across the counties weighed by the population of that race. Matplotlib does not support generating weighted box plots or violin plots, so a custom implementation was created. This code can be found in the IPython notebook.
+
+Figure \ref{f:ch4_weighted_distribution_race_violin} and Figure \ref{f:ch4_weighted_distribution_race_violin2} shows violin plots of the distribution of the living wage, broken down by year and race. Both figures are produced to make comparing distributions across races or comparing across years for the same race easy. Figure \ref{f:ch4_weighted_distribution_race_density} shows the same information as the previous  figures, but as density plots overlaid on each other. It becomes a bit difficult to compare across races since they are overlaid, so the "Asian" and "Pacific Islander" aces are put into their own figure.
+
+Some interesting trends and talking points emerge from these plots. As noted from earlier, we can see a general increase in the living wage across time. Another thing to notice is that all races seemed to have had a faster increase from 2004 - 2006, than across other years. This can be seen by the sharper shift to the right in Figure \ref{f:ch4_weighted_distribution_race_violin2} for this years. 
+
+Whats more interesting is how different these distributions are across races. Asians, Hispanics and Pacific Islanders have distributions which a shifted much further up the living wage scale for any given year than other races. Where one lives is a huge factor in the living wage, since housing costs are the highest impact variable in the model, and housing costs vary a lot across counties. These populations, especially Asian and Pacific Islanders, are more like to be concentrated into certain areas. If these areas have high housing costs, like big cities, then as a result, their distributions would skew upwards. Whites and Blacks are more evenly distributed throughout the county, and therefore have a lower and wider distribution. Native Americans also have one of the lower living wages distributions, which result from population dynamics as well.
+
+\begin{figure}[H]
+    \centering
+        \includegraphics[width=\textwidth,height=1.5\textwidth]{weighted_distribution_race_violin.png}
+        \caption{Violin Plots of Living Wage (Weighted by Racial Population of County)}
+    \label{f:ch4_weighted_distribution_race_violin}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+        \includegraphics[width=\textwidth,height=1.5\textwidth]{weighted_distribution_race_violin2.png}
+        \caption{Violin Plots of Living Wage (Weighted by Racial Population of County)}
+    \label{f:ch4_weighted_distribution_race_violin2}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+        \includegraphics[width=\textwidth,height=1.5\textwidth]{weighted_distribution_race_density.png}
+        \caption{Density Plots of Living Wage (Weighted by Racial Population of County)}
+    \label{f:ch4_weighted_distribution_race_density}
+\end{figure}
+
+
 \subsection{Population Weighted Averages Broken Down By Race}
+
+Figure \ref{f:ch4_national_avg_variables} shows the living wage (weighted) average for each race across years. As can be seen, Asian, Hispanic and Pacific Islanders all have higher averages for any given year. Each race seems to be experiencing the same rate of growth in the living wage average, with Pacific Islanders having a slightly steeper slope than the other races.
+
+\begin{figure}[hbt]
+    \centering
+        \includegraphics[width=\textwidth]{average_by_race.png}
+        \caption{National Living Wage Average Breakdown by Model Variable}
+    \label{f:ch4_national_avg_variables}
+\end{figure}
 

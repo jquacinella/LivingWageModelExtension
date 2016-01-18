@@ -51,3 +51,25 @@ The Tax Foundation produces a spreadsheet of official State income tax rates. Th
 \subsection{Federal Tax Data}
 
 The Tax Policy Center produces a dataset called the "Historical Federal Income Tax Rates for a Family of Four". While this dataset is not quite what this model needs, since the model developed for this project only modeled single adult households, due to a lack of data for single households (which only goes back to 2011), this dataset is used. \cite{federal_tax} Since all counties experience the same federal tax rate, inaccuracies here would not affect overall trends, but produce a worse approximation to the living wage consistently across counties.
+
+\section{Race Data from 2010 Census}
+
+Using the Census' "American Fact Finder" web page, data on racial breakdowns per county were downloaded from the "DP-1: Profile of General Population and Housing Characteristics: 2010" dataset. \cite{race_data} Code for loading this data can be found in the IPython notebook. \cite{code_data_race}
+
+
+\section{Median Wage Data}
+
+For the median wage, there are two data sets from the Census.gov that are applicable. The American Community Survey provides this data, however this project will use the SAIPE data for estimates of county median income:
+
+\begin{quote}
+Small Area Income and Poverty Estimates: The SAIPE program produces single-year estimates of median household income and poverty for states and all counties, as well as population and poverty estimates for school districts. Since SAIPE estimates combine ACS data with administrative and other data, SAIPE estimates generally have lower variance than ACS estimates but are released later because they incorporate ACS data in the models. For counties and school districts, particularly those with populations below 65,000, the SAIPE program provides the most accurate sub-national estimates of poverty. For counties, SAIPE generally provides the best single year estimates of median household income.
+\end{quote}
+
+
+\section{Minimum Wage}
+
+For the minimum wage, The United States Department of Labor keeps track of state level minimum wages. \cite{minimum_wage_data} The data is loaded via the IPython notebook. \cite{minimum_wage_load} This data was created by hand, and is located under the census/MinimumWage subdirectory in the github repository. 
+
+\section{Wage Distribution}
+
+It will also be instructive to see any data regarding the wage distribution per county, to get an estimate of how many people are earning a wage at or below the living wage. Data was loaded from American Fact Finder on the Census website \cite{wage_data} and is stored in the wage\_distribution subdirectory on github.
