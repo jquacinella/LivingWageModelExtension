@@ -90,31 +90,35 @@ Since the final value from the model is made up of 6 model variables, we can bre
 
 \section{Living Wage Distribution in Most Populous Counties}
 
-An article from Business Insider \cite{populated_counties} listed the top 150 counties by population. Figure \ref{f:ch4_populous_dist_and_trend} shows the distribution of living wage values over time separated by this grouping. The populated county distributions are spread out more (std: 3123.05) than the non-populated ones (std: 1791.76). Also, it seems that the populated county distributions are almost bimodal, with peaks labelled in the figure. In light of this, I separate the most populous counties into two subgroups in the subsequent visualizations and analysis, where 'most1' are the counties in the top 150 most populous counties but with a total cost in the bottom portion of the group; 'most2', the top portion of the group.
+What is the relationship between a county's total population and the county's living wage estimate? An article from Business Insider \cite{populated_counties} listed the top 150 counties by population. After importing this list of counties by hand, we can investigate the distribution of living wage estimates for counties in this group (hereafter called 'most populous') versus all the other counties (hereafter called 'non-populous'). Figure \ref{f:ch4_populous_dist_and_trend} shows the distribution of living wage values over time separated by this grouping. The 'most populous' county distributions (red in the figure) are spread out more (std: 3123.05) than the 'non-populous' ones (blue in the figure; std: 1791.76). The 'most populous' county distribution is also shifted to the right, indicating higher living wages for counties that are highly populated. 
 
-Figure \ref{f:ch4_peaks_by_populous} shows the trend in the distribution peaks, labelled by population group. What is interesting here is that the different between the peak in the least-populous county group and the two peaks in the most-populous group is very steady in value, despite a general increase over time. This seems to insinuate that living in a more populated area comes at the cost of an increase in the living wage needed, and that this cost is maintained over time.
+Also, it seems that the 'most populous' county distributions are almost bimodal, with peaks labelled in the figure. In light of this, the 'most populous' counties are separated into two subgroups in the subsequent visualizations and analysis, where 'moderately populous' are the counties in the 'most populous' group but with a total cost in the bottom portion of the group; 'highly populous', the top portion of the group. The split is done based on a given year's minimum value of the kernel density estimate between the peaks, highlighted in the figure
+
+Figure \ref{f:ch4_peaks_by_populous} shows the trend in the distribution peaks, labelled by population group. What is interesting here is that the different between the peak in the least-populous county group and the two peaks in the most-populous group is very steady in value, despite a general increase over time. This seems to insinuate that living in a more populated area comes at the cost of an increase in the living wage needed, and that this cost is maintained over time. Also, from 2009 to 2012, the 'highly populous' group of counties had a 'jolt' in the equilibrium of the living wage estimate; there is no associated jolt in the other county groupings.
 
 Table \ref{tab:ch4_table_variable_delta_by_population} shows variables in the model to account for the differences in the living wage across the least and most populated counties. Figure \ref{f:ch4_variable_percentage_populous} shows this same breakdown, but as relative percentages. As you can see, rent is the dominate variable in explaining the differences between population group.
 
-\begin{figure}[H]
-    \centering
-        \includegraphics[width=\textwidth,height=\textheight]{populous_dist_and_trend.png}
-        \caption{Living Wage Distribution of Populous vs Non-Populous Counties}
-    \label{f:ch4_populous_dist_and_trend}
-\end{figure}
+
 
 \begin{figure}[H]
     \centering
-        \includegraphics[width=\textwidth,height=0.45\textheight]{peaks_by_populous.png}
+        \includegraphics[width=\textwidth,height=0.35\textheight]{peaks_by_populous.png}
         \caption{Living Wage Peaks by Grouped By Population}
     \label{f:ch4_peaks_by_populous}
 \end{figure}
 
 \begin{figure}[H]
     \centering
-        \includegraphics[width=\textwidth,height=0.45\textheight]{variable_percentage_populous.png}
+        \includegraphics[width=\textwidth,height=0.35\textheight]{variable_percentage_populous.png}
         \caption{Model Variable Percentage of Total by Population Group (2014)}
     \label{f:ch4_variable_percentage_populous}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+        \includegraphics[width=\textwidth,height=\textheight]{populous_dist_and_trend.png}
+        \caption{Living Wage Distribution of Populous vs Non-Populous Counties}
+    \label{f:ch4_populous_dist_and_trend}
 \end{figure}
 
 \begin{table}[H]

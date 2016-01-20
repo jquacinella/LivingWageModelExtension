@@ -205,6 +205,8 @@ INPUT /usr/share/texlive/texmf-dist/tex/latex/float/float.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/float/float.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/koma-script/float.hak
 INPUT /usr/share/texlive/texmf-dist/tex/latex/koma-script/float.hak
+INPUT /usr/share/texlive/texmf-dist/tex/latex/wrapfig/wrapfig.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/wrapfig/wrapfig.sty
 INPUT living_wage_trends.aux
 INPUT living_wage_trends.aux
 INPUT FrontBackmatter/Titlepage.aux
@@ -417,15 +419,15 @@ INPUT ./figures/regional_trend.png
 INPUT figures/national_avg_breakdown.png
 INPUT ./figures/national_avg_breakdown.png
 INPUT ./figures/national_avg_breakdown.png
-INPUT figures/populous_dist_and_trend.png
-INPUT ./figures/populous_dist_and_trend.png
-INPUT ./figures/populous_dist_and_trend.png
 INPUT figures/peaks_by_populous.png
 INPUT ./figures/peaks_by_populous.png
 INPUT ./figures/peaks_by_populous.png
 INPUT figures/variable_percentage_populous.png
 INPUT ./figures/variable_percentage_populous.png
 INPUT ./figures/variable_percentage_populous.png
+INPUT figures/populous_dist_and_trend.png
+INPUT ./figures/populous_dist_and_trend.png
+INPUT ./figures/populous_dist_and_trend.png
 INPUT figures/distribution_race_boxplot.png
 INPUT ./figures/distribution_race_boxplot.png
 INPUT ./figures/distribution_race_boxplot.png
