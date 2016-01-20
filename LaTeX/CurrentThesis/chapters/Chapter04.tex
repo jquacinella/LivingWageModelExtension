@@ -6,7 +6,7 @@ This section will start to look at the living wage data to look for trends. Firs
 
 \section{Living Wage in Individual Counties}
 
-To start off, lets take a look at the data generated for the living wage estimates for counties. This will serve as a spot check to make sure that the data generated at least looks sensible. Figure \ref{f:ch4_individual} shows the living wage trend for 3 counties (Kings, Mercer and Orange County). This is not terribly interesting, but does show that the living wage estimates are within a reasonable range, and a manual inspection of the data does not show any NAs or suspicious values. It is interesting to note that both Kings and MErcer county seem to have a linearly increasing living wage, with a levelling off / decrease towards 2012 - 2014. Orange County, however, seems flatter, with a sharp increase towards the end.
+To start off, lets take a look at the data generated for the living wage estimates for counties. This will serve as a spot check to make sure that the data generated at least looks sensible. Figure \ref{f:ch4_individual} shows the living wage trend for 3 counties (Kings, Mercer and Orange County). This is not terribly interesting, but does show that the living wage estimates are within a reasonable range, and a manual inspection of the data does not show any NAs or suspicious values. It is interesting to note that both Kings and Mercer County seem to have a linearly increasing living wage, with a levelling off / decrease towards 2012 - 2014. Orange County, however, seems flatter, with a sharp increase towards the end.
 
 \begin{figure}[H]
     \centering
@@ -94,7 +94,7 @@ An article from Business Insider \cite{populated_counties} listed the top 150 co
 
 Figure \ref{f:ch4_peaks_by_populous} shows the trend in the distribution peaks, labelled by population group. What is interesting here is that the different between the peak in the least-populous county group and the two peaks in the most-populous group is very steady in value, despite a general increase over time. This seems to insinuate that living in a more populated area comes at the cost of an increase in the living wage needed, and that this cost is maintained over time.
 
-Table \ref{t:ch4_table_variable_delta_by_population} shows variables in the model to account for the differences in the living wage across the least and most populated counties. Figure \ref{f:ch4_variable_percentage_populous} shows this same breakdown, but as relative percentages. As you can see, rent is the dominate variable in explaining the differences between population group.
+Table \ref{tab:ch4_table_variable_delta_by_population} shows variables in the model to account for the differences in the living wage across the least and most populated counties. Figure \ref{f:ch4_variable_percentage_populous} shows this same breakdown, but as relative percentages. As you can see, rent is the dominate variable in explaining the differences between population group.
 
 \begin{figure}[H]
     \centering
@@ -117,12 +117,11 @@ Table \ref{t:ch4_table_variable_delta_by_population} shows variables in the mode
     \label{f:ch4_variable_percentage_populous}
 \end{figure}
 
-%\begin{table}[h!]
 \begin{table}[H]
 \centering
  \begin{tabular}{||c c c c||} 
  \hline
- Variable & Diff Most2 and Most Pop	& Diff Most2 and Least Pop & Diff Most1 and Least Pop \\ [0.5ex] 
+ Variable & Diff Most2 and Most1 Pop	& Diff Most2 and Least Pop & Diff Most1 and Least Pop \\ [0.5ex] 
  \hline\hline
  food\_cost & \$197.52 & \$306.93 & \$109.41 \\ 
  insurance\_cost & \$48.47 & \$67.46 & \$18.99 \\
@@ -133,8 +132,8 @@ Table \ref{t:ch4_table_variable_delta_by_population} shows variables in the mode
  total\_cost & \$6,119.75 & \$9,053.42 & \$2,933.67 \\ [1ex] 
  \hline
  \end{tabular}
- \label{t:ch4_table_variable_delta_by_population}
  \caption{Average values across counties in different population groups for all model variables}
+ \label{tab:ch4_table_variable_delta_by_population}
 \end{table}
 
 

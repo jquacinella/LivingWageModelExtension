@@ -43,7 +43,7 @@ Currently, we are only looking at households that contain a single adult. Theref
 
 The model uses data from the Medical Expenditure Panel Survey from the Agency for Healthcare Research and Quality (searchable here). Specifically, the model assumes a single adult's insurance costs are best estimated from Table X.C.1 Employee contribution distributions (in dollars) for private-sector employees enrolled in single coverage. This survey gives the mean cost for a single adult per state. Table X.C.1 was only added to the survey starting in 2006. There is an alternative table that appears in all years (Table II.C.2: Average total employee contribution (in dollars) per enrolled employee for single coverage at private-sector establishments), which is what is downloaded from the previous section.
 
-One problem is that in 2007 this survey was not done. This was solved by linearly impute data from 2006 and 2008, which seems reasonable if we can assume that costs tend to go up every year and not go down. This is true for the data that was looked at for this project.
+One problem is that in 2007 this survey was not done. This was solved by linearly imputing data from 2006 and 2008, which seems reasonable if we can assume that costs tend to go up every year and not go down. This is true for the data that was looked at for this project.
 
 Another problem is that some states do not appear in the earlier data due to funding issues (and not being able to get a statistically significant sample). I fix this by using the value in the data for 'states not specified' and fill in the missing states.
 
