@@ -18,7 +18,7 @@ To start off, lets take a look at the data generated for the living wage estimat
 
 \section{State Averages of the Living Wage}
 
-Now, we can aggregate these living wages up to the state level and see if any trends emerge. We calculate the living wage averages for states, weighed by the county population. Figure \ref{f:ch4_state_trend} shows the state averages for 4 states, two from each region (indicated by color). One can see that there are stark differences between state averages.
+Now, we can aggregate these living wages up to the state level and see if any trends emerge. We calculate the living wage averages for states, weighed by the county population. Figure \ref{f:ch4_state_trend} shows the state averages for 8 states, two from each region (indicated by color). One can see that there are stark differences between state averages.
 
 \textbf{TODO: Expand}
 
@@ -117,15 +117,16 @@ Table \ref{tab:ch4_table_variable_delta_by_population} shows variables in the mo
 \begin{figure}[H]
     \centering
         \includegraphics[width=\textwidth,height=\textheight]{populous_dist_and_trend.png}
-        \caption{Living Wage Distribution of Populous vs Non-Populous Counties}
+        \caption{Living Wage Distribution of Top and Bottom }
     \label{f:ch4_populous_dist_and_trend}
 \end{figure}
 
 \begin{table}[H]
+\footnotesize
 \centering
  \begin{tabular}{||c c c c||} 
  \hline
- Variable & Diff Most2 and Most1 Pop	& Diff Most2 and Least Pop & Diff Most1 and Least Pop \\ [0.5ex] 
+ Variable & "Upper 50\%,Top" - "Upper 50\%,Bottom" & "Upper 50\%,Top" - Least Pop & "Upper 50\%,Bottom" - Least\\ [0.1ex] 
  \hline\hline
  food\_cost & \$197.52 & \$306.93 & \$109.41 \\ 
  insurance\_cost & \$48.47 & \$67.46 & \$18.99 \\
