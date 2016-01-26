@@ -31,18 +31,18 @@
 \contentsline {chapter}{\numberline {4}\spacedlowsmallcaps {Introductory Analysis}}{11}{chapter.4}
 \contentsline {section}{\numberline {4.1}Living Wage in Individual Counties}{11}{section.4.1}
 \contentsline {section}{\numberline {4.2}State Averages of the Living Wage}{12}{section.4.2}
-\contentsline {section}{\numberline {4.3}Choropleth Of Counties: 2004, 2006, 2014}{12}{section.4.3}
-\contentsline {section}{\numberline {4.4}Regional Averages of the Living Wage}{14}{section.4.4}
-\contentsline {section}{\numberline {4.5}National Average Breakdown Across 2004 - 2014}{15}{section.4.5}
-\contentsline {section}{\numberline {4.6}Living Wage Distribution in Most Populous Counties}{16}{section.4.6}
-\contentsline {section}{\numberline {4.7}Living Wage Distribution by Race}{19}{section.4.7}
-\contentsline {subsection}{\numberline {4.7.1}Living Wage County (Non-Weighted) Breakdown by Race}{19}{subsection.4.7.1}
-\contentsline {subsection}{\numberline {4.7.2}Living Wage County (Weighted) Breakdown by Race}{22}{subsection.4.7.2}
-\contentsline {subsection}{\numberline {4.7.3}Population Weighted Averages Broken Down By Race}{27}{subsection.4.7.3}
+\contentsline {section}{\numberline {4.3}Choropleth Of Counties: 2004, 2007, 2010, 2014}{13}{section.4.3}
+\contentsline {section}{\numberline {4.4}Regional Averages of the Living Wage}{16}{section.4.4}
+\contentsline {section}{\numberline {4.5}National Average Breakdown Across 2004 - 2014}{16}{section.4.5}
+\contentsline {section}{\numberline {4.6}Living Wage Distribution in Most Populous Counties}{17}{section.4.6}
+\contentsline {section}{\numberline {4.7}Living Wage Distribution by Race}{20}{section.4.7}
+\contentsline {subsection}{\numberline {4.7.1}Living Wage County (Non-Weighted) Breakdown by Race}{20}{subsection.4.7.1}
+\contentsline {subsection}{\numberline {4.7.2}Living Wage County (Weighted) Breakdown by Race}{23}{subsection.4.7.2}
+\contentsline {subsection}{\numberline {4.7.3}Population Weighted Averages Broken Down By Race}{28}{subsection.4.7.3}
 \contentsline {chapter}{\numberline {5}\spacedlowsmallcaps {Living Wage Gap}}{29}{chapter.5}
 \contentsline {section}{\numberline {5.1}Distribution of The Median-Gap}{29}{section.5.1}
 \contentsline {section}{\numberline {5.2}Distribution of The Minimum-Wage-Gap}{30}{section.5.2}
-\contentsline {section}{\numberline {5.3}Percentage of Single Households At or Below the Living Wage}{31}{section.5.3}
+\contentsline {section}{\numberline {5.3}Percentage of Single Households At or Below the Living Wage}{32}{section.5.3}
 \contentsline {chapter}{\numberline {6}\spacedlowsmallcaps {Results and Future Work}}{35}{chapter.6}
 \contentsline {section}{\numberline {6.1}Overall Results}{35}{section.6.1}
 \contentsline {section}{\numberline {6.2}Future Work}{36}{section.6.2}

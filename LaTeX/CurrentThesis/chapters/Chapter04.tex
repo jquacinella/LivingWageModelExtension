@@ -18,11 +18,15 @@ To start off, lets take a look at the data generated for the living wage estimat
 
 \section{State Averages of the Living Wage}
 
-Now, we can aggregate these living wages up to the state level and see if any trends emerge. We calculate the living wage averages for states, weighed by the county population. Figure \ref{f:ch4_state_trend} shows the state averages for 8 states, two from each region (indicated by color). One can see that there are stark differences between state averages.
+Aggregating the living wages estimates up to the state level and we see if any trends emerge. The living wage averages are calculated for states across time, weighed by the county population. Figure \ref{f:ch4_state_trend} shows the state averages for all 50 states, with a few choice trends highlighted in bold. We can see that there are some interesting questions to ask about these results.
 
-\textbf{TODO: Expand}
+First, the state trends in the figure is grouped into three groups (indicated by color), based on their visual properties. The orange trends are states with a 2014 state average of < \$14,000. The red group are for states with a 2014 state average of > \$28,000, with the blue group in-between these values. The states in the lower, orange group have evolved stably over time, while the other groups seem to have higher volatility. The red, blue and orange groups have an average standard deviation of 1395.79, 881.89, and 659.77, respectively.
 
-\begin{figure}[hbt]
+Secondly, it seems that the upper group, while initially only starting slightly above the blue group in 2004, have now deviated from the middle group, becoming very pronounced in 2009. To highlight this, two trends are shown in bold in each group (Maryland and Rhode Island), to show how similarly the trends started off but how different they are in recent years. This suggests that a closer look at differences in these states is warranted; since the living wage is significantly determined by housing costs (shown later), it would be instructive to look at state housing policy changes, and how these states reacted to the fiscal crisis of late 2007.
+
+Lastly, a couple of states are especially high, even for the red group. The state trend for DC is highlighted in bold as well to show this. Notice that very large increase in the living wage from 2009 to 2010 for DC (and MD).
+
+\begin{figure}[H]
     \centering
         \includegraphics[width=1.1\textwidth]{state_trend.png}
         \caption{Living Wage Trend for Select States}
@@ -31,9 +35,9 @@ Now, we can aggregate these living wages up to the state level and see if any tr
 
 
 
-\section{Choropleth Of Counties: 2004, 2006, 2014}
+\section{Choropleth Of Counties: 2004, 2007, 2010, 2014}
 
-A Choropleth map of the United States is a good way to get an overall view of the living wage distribution for any given year. Using the calculated living wage estimates, choropleth maps are generated for sample years. Figure \ref{f:ch4_county_map_2004} shows the living wage county distribution for 2004; Figure \ref{f:ch4_county_map_2006} shows the same distribution in 2006; Figure \ref{f:ch4_county_map_2014} shows it for 2014. Once notices that large portions of the 'middle county' (Midwest and South regions) generally have lower living wages, while the East and West regions have higher living wages. Also, as would be expected, the maps get darker with time, indicating a general increase of the living wage over time.
+A Choropleth map of the United States is a good way to get an overall view of the living wage distribution for any given year. Using the calculated living wage estimates, choropleth maps are generated for sample years. Figure \ref{f:ch4_county_map_2004} shows the living wage county distribution for 2004; Figure \ref{f:ch4_county_map_2007} shows the same distribution in 2006; Figure \ref{f:ch4_county_map_2010} shows it for 2010; and Figure \ref{f:ch4_county_map_2014} shows it for 2014. Once notices that large portions of the 'middle county' (Midwest and South regions) generally have lower living wages, while the East and West regions have higher living wages. Also, as would be expected, the maps get darker with time, indicating a general increase of the living wage over time.
 
 
 \begin{figure}[H]
@@ -45,9 +49,16 @@ A Choropleth map of the United States is a good way to get an overall view of th
 
 \begin{figure}[H]
     \centering
-        \includegraphics[width=\textwidth]{county_map_2006.png}
-        \caption{Choropleth of Counties based on Living Wage, 2006}
+        \includegraphics[width=\textwidth]{county_map_2007.png}
+        \caption{Choropleth of Counties based on Living Wage, 2007}
     \label{f:ch4_county_map_2006}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+        \includegraphics[width=\textwidth]{county_map_2010.png}
+        \caption{Choropleth of Counties based on Living Wage, 2010}
+    \label{f:ch4_county_map_2014}
 \end{figure}
 
 \begin{figure}[H]

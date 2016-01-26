@@ -396,10 +396,10 @@ INPUT chapters/Chapter04.tex
 INPUT figures/county_trend.png
 INPUT ./figures/county_trend.png
 INPUT ./figures/county_trend.png
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/palatino/pplb9d.tfm
 INPUT figures/state_trend.png
 INPUT ./figures/state_trend.png
 INPUT ./figures/state_trend.png
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/palatino/pplb9d.tfm
 INPUT figures/county_map_2004.png
 INPUT ./figures/county_map_2004.png
 INPUT ./figures/county_map_2004.png
@@ -407,9 +407,12 @@ INPUT /usr/share/texlive/texmf-dist/fonts/vf/adobe/palatino/pplb9d.vf
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/palatino/pplb8r.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/mathpazo/fplmb.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/palatino/pplbj8r.tfm
-INPUT figures/county_map_2006.png
-INPUT ./figures/county_map_2006.png
-INPUT ./figures/county_map_2006.png
+INPUT figures/county_map_2007.png
+INPUT ./figures/county_map_2007.png
+INPUT ./figures/county_map_2007.png
+INPUT figures/county_map_2010.png
+INPUT ./figures/county_map_2010.png
+INPUT ./figures/county_map_2010.png
 INPUT figures/county_map_2014.png
 INPUT ./figures/county_map_2014.png
 INPUT ./figures/county_map_2014.png
@@ -484,6 +487,9 @@ INPUT ./figures/median_gap_years.png
 INPUT figures/minimum_gap_years.png
 INPUT ./figures/minimum_gap_years.png
 INPUT ./figures/minimum_gap_years.png
+INPUT figures/state_gap_years.png
+INPUT ./figures/state_gap_years.png
+INPUT ./figures/state_gap_years.png
 INPUT figures/perc_below_living.png
 INPUT ./figures/perc_below_living.png
 INPUT ./figures/perc_below_living.png

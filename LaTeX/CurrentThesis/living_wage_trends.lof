@@ -6,26 +6,28 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {1}{\ignorespaces Living Wage Trend for Select Counties\relax }}{11}{figure.caption.6}
-\contentsline {figure}{\numberline {2}{\ignorespaces Living Wage Trend for Select States\relax }}{12}{figure.caption.7}
-\contentsline {figure}{\numberline {3}{\ignorespaces Choropleth of Counties based on Living Wage, 2004\relax }}{13}{figure.caption.8}
-\contentsline {figure}{\numberline {4}{\ignorespaces Choropleth of Counties based on Living Wage, 2006\relax }}{13}{figure.caption.9}
-\contentsline {figure}{\numberline {5}{\ignorespaces Choropleth of Counties based on Living Wage, 2014\relax }}{14}{figure.caption.10}
-\contentsline {figure}{\numberline {6}{\ignorespaces Regional Trend of the Living Wage\relax }}{15}{figure.caption.11}
-\contentsline {figure}{\numberline {7}{\ignorespaces Breakdown of National Average of the Living Wage\relax }}{16}{figure.caption.12}
-\contentsline {figure}{\numberline {8}{\ignorespaces Living Wage Peaks by Grouped By Population\relax }}{17}{figure.caption.13}
-\contentsline {figure}{\numberline {9}{\ignorespaces Model Variable Percentage of Total by Population Group (2014)\relax }}{17}{figure.caption.14}
-\contentsline {figure}{\numberline {10}{\ignorespaces Living Wage Distribution of Top and Bottom \relax }}{18}{figure.caption.15}
-\contentsline {figure}{\numberline {11}{\ignorespaces Living Wage Distribution for Race By Year\relax }}{20}{figure.caption.17}
-\contentsline {figure}{\numberline {12}{\ignorespaces Living Wage Distribution for Year by Race\relax }}{21}{figure.caption.18}
-\contentsline {figure}{\numberline {13}{\ignorespaces Living Wage Density Plots for Race By Year\relax }}{22}{figure.caption.19}
-\contentsline {figure}{\numberline {14}{\ignorespaces Violin Plots of Living Wage (Weighted by Racial Population of County)\relax }}{24}{figure.caption.20}
+\contentsline {figure}{\numberline {2}{\ignorespaces Living Wage Trend for Select States\relax }}{13}{figure.caption.7}
+\contentsline {figure}{\numberline {3}{\ignorespaces Choropleth of Counties based on Living Wage, 2004\relax }}{14}{figure.caption.8}
+\contentsline {figure}{\numberline {4}{\ignorespaces Choropleth of Counties based on Living Wage, 2007\relax }}{14}{figure.caption.9}
+\contentsline {figure}{\numberline {5}{\ignorespaces Choropleth of Counties based on Living Wage, 2010\relax }}{15}{figure.caption.10}
+\contentsline {figure}{\numberline {6}{\ignorespaces Choropleth of Counties based on Living Wage, 2014\relax }}{15}{figure.caption.11}
+\contentsline {figure}{\numberline {7}{\ignorespaces Regional Trend of the Living Wage\relax }}{16}{figure.caption.12}
+\contentsline {figure}{\numberline {8}{\ignorespaces Breakdown of National Average of the Living Wage\relax }}{17}{figure.caption.13}
+\contentsline {figure}{\numberline {9}{\ignorespaces Living Wage Peaks by Grouped By Population\relax }}{18}{figure.caption.14}
+\contentsline {figure}{\numberline {10}{\ignorespaces Model Variable Percentage of Total by Population Group (2014)\relax }}{18}{figure.caption.15}
+\contentsline {figure}{\numberline {11}{\ignorespaces Living Wage Distribution of Top and Bottom \relax }}{19}{figure.caption.16}
+\contentsline {figure}{\numberline {12}{\ignorespaces Living Wage Distribution for Race By Year\relax }}{21}{figure.caption.18}
+\contentsline {figure}{\numberline {13}{\ignorespaces Living Wage Distribution for Year by Race\relax }}{22}{figure.caption.19}
+\contentsline {figure}{\numberline {14}{\ignorespaces Living Wage Density Plots for Race By Year\relax }}{23}{figure.caption.20}
 \contentsline {figure}{\numberline {15}{\ignorespaces Violin Plots of Living Wage (Weighted by Racial Population of County)\relax }}{25}{figure.caption.21}
-\contentsline {figure}{\numberline {16}{\ignorespaces Density Plots of Living Wage (Weighted by Racial Population of County)\relax }}{26}{figure.caption.22}
-\contentsline {figure}{\numberline {17}{\ignorespaces National Living Wage Average Breakdown by Model Variable\relax }}{27}{figure.caption.23}
+\contentsline {figure}{\numberline {16}{\ignorespaces Violin Plots of Living Wage (Weighted by Racial Population of County)\relax }}{26}{figure.caption.22}
+\contentsline {figure}{\numberline {17}{\ignorespaces Density Plots of Living Wage (Weighted by Racial Population of County)\relax }}{27}{figure.caption.23}
+\contentsline {figure}{\numberline {18}{\ignorespaces National Living Wage Average Breakdown by Model Variable\relax }}{28}{figure.caption.24}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {18}{\ignorespaces Weighted Distribution of the Gap Between County Median Wage and Living Wage (2004-2014)\relax }}{30}{figure.caption.24}
-\contentsline {figure}{\numberline {19}{\ignorespaces Distribution of the Gap Between County Minimum Wage and Living Wage (2004-2014)\relax }}{31}{figure.caption.25}
-\contentsline {figure}{\numberline {20}{\ignorespaces Estimated Distribution of Percentage of Single Households Earning the Living Wage or Less Across Counties\relax }}{33}{figure.caption.26}
-\contentsline {figure}{\numberline {21}{\ignorespaces Regional Breakdown of Counties that have 50\% or Greater Single Households that make the Living Wage or Less\relax }}{34}{figure.caption.27}
-\contentsline {figure}{\numberline {22}{\ignorespaces Map of Counties Showing Percentage of Single Households Earning The Living Wage or Less\relax }}{34}{figure.caption.28}
+\contentsline {figure}{\numberline {19}{\ignorespaces Weighted Distribution of the Gap Between County Median Wage and Living Wage (2004-2014)\relax }}{30}{figure.caption.25}
+\contentsline {figure}{\numberline {20}{\ignorespaces Distribution of the Gap Between County Minimum Wage and Living Wage (2004-2014)\relax }}{31}{figure.caption.26}
+\contentsline {figure}{\numberline {21}{\ignorespaces Gap Between the Minimum and Living Wage By State Per Year (2004 - 2014). The grouping and highlighting Are the same as Fig \ref {f:ch4_state_trend}\relax }}{32}{figure.caption.27}
+\contentsline {figure}{\numberline {22}{\ignorespaces Estimated Distribution of Percentage of Single Households Earning the Living Wage or Less Across Counties\relax }}{33}{figure.caption.28}
+\contentsline {figure}{\numberline {23}{\ignorespaces Regional Breakdown of Counties that have 50\% or Greater Single Households that make the Living Wage or Less\relax }}{34}{figure.caption.29}
+\contentsline {figure}{\numberline {24}{\ignorespaces Map of Counties Showing Percentage of Single Households Earning The Living Wage or Less\relax }}{34}{figure.caption.30}
 \addvspace {10\p@ }
